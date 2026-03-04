@@ -77,7 +77,6 @@ class AppTheme {
       ),
       chipTheme: ChipThemeData(
         backgroundColor: AppColors.chipBackground,
-        labelStyle: AppTypography.label,
         shape: RoundedRectangleBorder(
           borderRadius: AppSpacing.borderRadiusMd,
         ),
