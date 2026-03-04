@@ -2,7 +2,7 @@ name: kanji_study
 description: "칸지공부 - JLPT N5~N1 상용한자 2,136자 학습 앱"
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.2+4
 
 environment:
   sdk: ^3.8.0
