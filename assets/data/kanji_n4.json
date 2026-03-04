@@ -1,0 +1,5059 @@
+[
+  {
+    "character": "悪",
+    "onyomi": "アク、オ",
+    "kunyomi": "わる.い",
+    "meanings": [
+      "bad",
+      "evil",
+      "나쁜"
+    ],
+    "strokeCount": 11,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "悪い",
+        "reading": "わるい",
+        "meaning": "나쁘다"
+      },
+      {
+        "word": "最悪",
+        "reading": "さいあく",
+        "meaning": "최악"
+      },
+      {
+        "word": "悪魔",
+        "reading": "あくま",
+        "meaning": "악마"
+      }
+    ]
+  },
+  {
+    "character": "暗",
+    "onyomi": "アン",
+    "kunyomi": "くら.い",
+    "meanings": [
+      "dark",
+      "어두운"
+    ],
+    "strokeCount": 13,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "暗い",
+        "reading": "くらい",
+        "meaning": "어둡다"
+      },
+      {
+        "word": "暗記",
+        "reading": "あんき",
+        "meaning": "암기"
+      },
+      {
+        "word": "暗号",
+        "reading": "あんごう",
+        "meaning": "암호"
+      }
+    ]
+  },
+  {
+    "character": "医",
+    "onyomi": "イ",
+    "kunyomi": "",
+    "meanings": [
+      "medicine",
+      "doctor",
+      "의학"
+    ],
+    "strokeCount": 7,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "医者",
+        "reading": "いしゃ",
+        "meaning": "의사"
+      },
+      {
+        "word": "医学",
+        "reading": "いがく",
+        "meaning": "의학"
+      },
+      {
+        "word": "医院",
+        "reading": "いいん",
+        "meaning": "의원"
+      }
+    ]
+  },
+  {
+    "character": "意",
+    "onyomi": "イ",
+    "kunyomi": "",
+    "meanings": [
+      "idea",
+      "meaning",
+      "뜻"
+    ],
+    "strokeCount": 13,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "意味",
+        "reading": "いみ",
+        "meaning": "의미"
+      },
+      {
+        "word": "注意",
+        "reading": "ちゅうい",
+        "meaning": "주의"
+      },
+      {
+        "word": "意見",
+        "reading": "いけん",
+        "meaning": "의견"
+      }
+    ]
+  },
+  {
+    "character": "引",
+    "onyomi": "イン",
+    "kunyomi": "ひ.く、ひ.ける",
+    "meanings": [
+      "pull",
+      "draw",
+      "끌다"
+    ],
+    "strokeCount": 4,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "引く",
+        "reading": "ひく",
+        "meaning": "끌다"
+      },
+      {
+        "word": "引越し",
+        "reading": "ひっこし",
+        "meaning": "이사"
+      },
+      {
+        "word": "取引",
+        "reading": "とりひき",
+        "meaning": "거래"
+      }
+    ]
+  },
+  {
+    "character": "院",
+    "onyomi": "イン",
+    "kunyomi": "",
+    "meanings": [
+      "institution",
+      "temple",
+      "원"
+    ],
+    "strokeCount": 10,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "病院",
+        "reading": "びょういん",
+        "meaning": "병원"
+      },
+      {
+        "word": "入院",
+        "reading": "にゅういん",
+        "meaning": "입원"
+      },
+      {
+        "word": "医院",
+        "reading": "いいん",
+        "meaning": "의원"
+      }
+    ]
+  },
+  {
+    "character": "運",
+    "onyomi": "ウン",
+    "kunyomi": "はこ.ぶ",
+    "meanings": [
+      "carry",
+      "luck",
+      "운반"
+    ],
+    "strokeCount": 12,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "運動",
+        "reading": "うんどう",
+        "meaning": "운동"
+      },
+      {
+        "word": "運転",
+        "reading": "うんてん",
+        "meaning": "운전"
+      },
+      {
+        "word": "運ぶ",
+        "reading": "はこぶ",
+        "meaning": "운반하다"
+      }
+    ]
+  },
+  {
+    "character": "映",
+    "onyomi": "エイ",
+    "kunyomi": "うつ.る、うつ.す",
+    "meanings": [
+      "reflect",
+      "project",
+      "비치다"
+    ],
+    "strokeCount": 9,
+    "grade": 6,
+    "examples": [
+      {
+        "word": "映画",
+        "reading": "えいが",
+        "meaning": "영화"
+      },
+      {
+        "word": "映る",
+        "reading": "うつる",
+        "meaning": "비치다"
+      },
+      {
+        "word": "上映",
+        "reading": "じょうえい",
+        "meaning": "상영"
+      }
+    ]
+  },
+  {
+    "character": "英",
+    "onyomi": "エイ",
+    "kunyomi": "",
+    "meanings": [
+      "England",
+      "English",
+      "영어"
+    ],
+    "strokeCount": 8,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "英語",
+        "reading": "えいご",
+        "meaning": "영어"
+      },
+      {
+        "word": "英国",
+        "reading": "えいこく",
+        "meaning": "영국"
+      },
+      {
+        "word": "英文",
+        "reading": "えいぶん",
+        "meaning": "영문"
+      }
+    ]
+  },
+  {
+    "character": "駅",
+    "onyomi": "エキ",
+    "kunyomi": "",
+    "meanings": [
+      "station",
+      "역"
+    ],
+    "strokeCount": 14,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "駅前",
+        "reading": "えきまえ",
+        "meaning": "역 앞"
+      },
+      {
+        "word": "東京駅",
+        "reading": "とうきょうえき",
+        "meaning": "도쿄역"
+      },
+      {
+        "word": "駅員",
+        "reading": "えきいん",
+        "meaning": "역무원"
+      }
+    ]
+  },
+  {
+    "character": "園",
+    "onyomi": "エン",
+    "kunyomi": "その",
+    "meanings": [
+      "garden",
+      "park",
+      "정원"
+    ],
+    "strokeCount": 13,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "公園",
+        "reading": "こうえん",
+        "meaning": "공원"
+      },
+      {
+        "word": "動物園",
+        "reading": "どうぶつえん",
+        "meaning": "동물원"
+      },
+      {
+        "word": "幼稚園",
+        "reading": "ようちえん",
+        "meaning": "유치원"
+      }
+    ]
+  },
+  {
+    "character": "遠",
+    "onyomi": "エン、オン",
+    "kunyomi": "とお.い",
+    "meanings": [
+      "far",
+      "distant",
+      "멀다"
+    ],
+    "strokeCount": 13,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "遠い",
+        "reading": "とおい",
+        "meaning": "멀다"
+      },
+      {
+        "word": "永遠",
+        "reading": "えいえん",
+        "meaning": "영원"
+      },
+      {
+        "word": "遠足",
+        "reading": "えんそく",
+        "meaning": "소풍"
+      }
+    ]
+  },
+  {
+    "character": "屋",
+    "onyomi": "オク",
+    "kunyomi": "や",
+    "meanings": [
+      "roof",
+      "shop",
+      "가게"
+    ],
+    "strokeCount": 9,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "部屋",
+        "reading": "へや",
+        "meaning": "방"
+      },
+      {
+        "word": "屋上",
+        "reading": "おくじょう",
+        "meaning": "옥상"
+      },
+      {
+        "word": "本屋",
+        "reading": "ほんや",
+        "meaning": "서점"
+      }
+    ]
+  },
+  {
+    "character": "音",
+    "onyomi": "オン、イン",
+    "kunyomi": "おと、ね",
+    "meanings": [
+      "sound",
+      "noise",
+      "소리"
+    ],
+    "strokeCount": 9,
+    "grade": 1,
+    "examples": [
+      {
+        "word": "音楽",
+        "reading": "おんがく",
+        "meaning": "음악"
+      },
+      {
+        "word": "発音",
+        "reading": "はつおん",
+        "meaning": "발음"
+      },
+      {
+        "word": "音",
+        "reading": "おと",
+        "meaning": "소리"
+      }
+    ]
+  },
+  {
+    "character": "夏",
+    "onyomi": "カ、ゲ",
+    "kunyomi": "なつ",
+    "meanings": [
+      "summer",
+      "여름"
+    ],
+    "strokeCount": 10,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "夏休み",
+        "reading": "なつやすみ",
+        "meaning": "여름방학"
+      },
+      {
+        "word": "夏",
+        "reading": "なつ",
+        "meaning": "여름"
+      },
+      {
+        "word": "初夏",
+        "reading": "しょか",
+        "meaning": "초여름"
+      }
+    ]
+  },
+  {
+    "character": "家",
+    "onyomi": "カ、ケ",
+    "kunyomi": "いえ、や、うち",
+    "meanings": [
+      "house",
+      "home",
+      "집"
+    ],
+    "strokeCount": 10,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "家族",
+        "reading": "かぞく",
+        "meaning": "가족"
+      },
+      {
+        "word": "家",
+        "reading": "いえ",
+        "meaning": "집"
+      },
+      {
+        "word": "作家",
+        "reading": "さっか",
+        "meaning": "작가"
+      }
+    ]
+  },
+  {
+    "character": "歌",
+    "onyomi": "カ",
+    "kunyomi": "うた、うた.う",
+    "meanings": [
+      "song",
+      "sing",
+      "노래"
+    ],
+    "strokeCount": 14,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "歌う",
+        "reading": "うたう",
+        "meaning": "노래하다"
+      },
+      {
+        "word": "歌手",
+        "reading": "かしゅ",
+        "meaning": "가수"
+      },
+      {
+        "word": "歌",
+        "reading": "うた",
+        "meaning": "노래"
+      }
+    ]
+  },
+  {
+    "character": "画",
+    "onyomi": "ガ、カク",
+    "kunyomi": "",
+    "meanings": [
+      "picture",
+      "drawing",
+      "그림"
+    ],
+    "strokeCount": 8,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "映画",
+        "reading": "えいが",
+        "meaning": "영화"
+      },
+      {
+        "word": "計画",
+        "reading": "けいかく",
+        "meaning": "계획"
+      },
+      {
+        "word": "画家",
+        "reading": "がか",
+        "meaning": "화가"
+      }
+    ]
+  },
+  {
+    "character": "回",
+    "onyomi": "カイ、エ",
+    "kunyomi": "まわ.る、まわ.す",
+    "meanings": [
+      "times",
+      "revolve",
+      "회"
+    ],
+    "strokeCount": 6,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "一回",
+        "reading": "いっかい",
+        "meaning": "한 번"
+      },
+      {
+        "word": "回る",
+        "reading": "まわる",
+        "meaning": "돌다"
+      },
+      {
+        "word": "回答",
+        "reading": "かいとう",
+        "meaning": "회답"
+      }
+    ]
+  },
+  {
+    "character": "海",
+    "onyomi": "カイ",
+    "kunyomi": "うみ",
+    "meanings": [
+      "sea",
+      "ocean",
+      "바다"
+    ],
+    "strokeCount": 9,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "海",
+        "reading": "うみ",
+        "meaning": "바다"
+      },
+      {
+        "word": "海外",
+        "reading": "かいがい",
+        "meaning": "해외"
+      },
+      {
+        "word": "日本海",
+        "reading": "にほんかい",
+        "meaning": "일본해"
+      }
+    ]
+  },
+  {
+    "character": "界",
+    "onyomi": "カイ",
+    "kunyomi": "",
+    "meanings": [
+      "world",
+      "boundary",
+      "세계"
+    ],
+    "strokeCount": 9,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "世界",
+        "reading": "せかい",
+        "meaning": "세계"
+      },
+      {
+        "word": "業界",
+        "reading": "ぎょうかい",
+        "meaning": "업계"
+      },
+      {
+        "word": "限界",
+        "reading": "げんかい",
+        "meaning": "한계"
+      }
+    ]
+  },
+  {
+    "character": "開",
+    "onyomi": "カイ",
+    "kunyomi": "ひら.く、あ.く、あ.ける",
+    "meanings": [
+      "open",
+      "열다"
+    ],
+    "strokeCount": 12,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "開く",
+        "reading": "あく",
+        "meaning": "열리다"
+      },
+      {
+        "word": "開ける",
+        "reading": "あける",
+        "meaning": "열다"
+      },
+      {
+        "word": "公開",
+        "reading": "こうかい",
+        "meaning": "공개"
+      }
+    ]
+  },
+  {
+    "character": "楽",
+    "onyomi": "ガク、ラク",
+    "kunyomi": "たの.しい、たの.しむ",
+    "meanings": [
+      "music",
+      "comfort",
+      "pleasure",
+      "즐거운"
+    ],
+    "strokeCount": 13,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "音楽",
+        "reading": "おんがく",
+        "meaning": "음악"
+      },
+      {
+        "word": "楽しい",
+        "reading": "たのしい",
+        "meaning": "즐겁다"
+      },
+      {
+        "word": "気楽",
+        "reading": "きらく",
+        "meaning": "편안한"
+      }
+    ]
+  },
+  {
+    "character": "寒",
+    "onyomi": "カン",
+    "kunyomi": "さむ.い",
+    "meanings": [
+      "cold",
+      "추운"
+    ],
+    "strokeCount": 12,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "寒い",
+        "reading": "さむい",
+        "meaning": "춥다"
+      },
+      {
+        "word": "寒気",
+        "reading": "さむけ",
+        "meaning": "한기"
+      },
+      {
+        "word": "寒波",
+        "reading": "かんぱ",
+        "meaning": "한파"
+      }
+    ]
+  },
+  {
+    "character": "漢",
+    "onyomi": "カン",
+    "kunyomi": "",
+    "meanings": [
+      "China",
+      "Han",
+      "한자"
+    ],
+    "strokeCount": 13,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "漢字",
+        "reading": "かんじ",
+        "meaning": "한자"
+      },
+      {
+        "word": "漢語",
+        "reading": "かんご",
+        "meaning": "한어"
+      },
+      {
+        "word": "漢文",
+        "reading": "かんぶん",
+        "meaning": "한문"
+      }
+    ]
+  },
+  {
+    "character": "館",
+    "onyomi": "カン",
+    "kunyomi": "やかた",
+    "meanings": [
+      "building",
+      "hall",
+      "관"
+    ],
+    "strokeCount": 16,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "図書館",
+        "reading": "としょかん",
+        "meaning": "도서관"
+      },
+      {
+        "word": "映画館",
+        "reading": "えいがかん",
+        "meaning": "영화관"
+      },
+      {
+        "word": "美術館",
+        "reading": "びじゅつかん",
+        "meaning": "미술관"
+      }
+    ]
+  },
+  {
+    "character": "顔",
+    "onyomi": "ガン",
+    "kunyomi": "かお",
+    "meanings": [
+      "face",
+      "얼굴"
+    ],
+    "strokeCount": 18,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "顔",
+        "reading": "かお",
+        "meaning": "얼굴"
+      },
+      {
+        "word": "笑顔",
+        "reading": "えがお",
+        "meaning": "웃는 얼굴"
+      },
+      {
+        "word": "顔色",
+        "reading": "かおいろ",
+        "meaning": "안색"
+      }
+    ]
+  },
+  {
+    "character": "帰",
+    "onyomi": "キ",
+    "kunyomi": "かえ.る、かえ.す",
+    "meanings": [
+      "return",
+      "go home",
+      "돌아가다"
+    ],
+    "strokeCount": 10,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "帰る",
+        "reading": "かえる",
+        "meaning": "돌아가다"
+      },
+      {
+        "word": "帰国",
+        "reading": "きこく",
+        "meaning": "귀국"
+      },
+      {
+        "word": "帰り",
+        "reading": "かえり",
+        "meaning": "돌아오는 길"
+      }
+    ]
+  },
+  {
+    "character": "起",
+    "onyomi": "キ",
+    "kunyomi": "お.きる、お.こる、お.こす",
+    "meanings": [
+      "wake up",
+      "rise",
+      "일어나다"
+    ],
+    "strokeCount": 10,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "起きる",
+        "reading": "おきる",
+        "meaning": "일어나다"
+      },
+      {
+        "word": "起こる",
+        "reading": "おこる",
+        "meaning": "일어나다"
+      },
+      {
+        "word": "早起き",
+        "reading": "はやおき",
+        "meaning": "일찍 일어남"
+      }
+    ]
+  },
+  {
+    "character": "究",
+    "onyomi": "キュウ",
+    "kunyomi": "きわ.める",
+    "meanings": [
+      "research",
+      "study",
+      "연구"
+    ],
+    "strokeCount": 7,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "研究",
+        "reading": "けんきゅう",
+        "meaning": "연구"
+      },
+      {
+        "word": "究明",
+        "reading": "きゅうめい",
+        "meaning": "규명"
+      },
+      {
+        "word": "研究者",
+        "reading": "けんきゅうしゃ",
+        "meaning": "연구자"
+      }
+    ]
+  },
+  {
+    "character": "急",
+    "onyomi": "キュウ",
+    "kunyomi": "いそ.ぐ",
+    "meanings": [
+      "hurry",
+      "急",
+      "급하다"
+    ],
+    "strokeCount": 9,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "急ぐ",
+        "reading": "いそぐ",
+        "meaning": "서두르다"
+      },
+      {
+        "word": "急行",
+        "reading": "きゅうこう",
+        "meaning": "급행"
+      },
+      {
+        "word": "急に",
+        "reading": "きゅうに",
+        "meaning": "갑자기"
+      }
+    ]
+  },
+  {
+    "character": "牛",
+    "onyomi": "ギュウ",
+    "kunyomi": "うし",
+    "meanings": [
+      "cow",
+      "bull",
+      "소"
+    ],
+    "strokeCount": 4,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "牛肉",
+        "reading": "ぎゅうにく",
+        "meaning": "소고기"
+      },
+      {
+        "word": "牛乳",
+        "reading": "ぎゅうにゅう",
+        "meaning": "우유"
+      },
+      {
+        "word": "牛",
+        "reading": "うし",
+        "meaning": "소"
+      }
+    ]
+  },
+  {
+    "character": "去",
+    "onyomi": "キョ、コ",
+    "kunyomi": "さ.る",
+    "meanings": [
+      "gone",
+      "past",
+      "지나가다"
+    ],
+    "strokeCount": 5,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "去年",
+        "reading": "きょねん",
+        "meaning": "작년"
+      },
+      {
+        "word": "過去",
+        "reading": "かこ",
+        "meaning": "과거"
+      },
+      {
+        "word": "去る",
+        "reading": "さる",
+        "meaning": "떠나다"
+      }
+    ]
+  },
+  {
+    "character": "強",
+    "onyomi": "キョウ、ゴウ",
+    "kunyomi": "つよ.い、つよ.まる、し.いる",
+    "meanings": [
+      "strong",
+      "강한"
+    ],
+    "strokeCount": 11,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "強い",
+        "reading": "つよい",
+        "meaning": "강하다"
+      },
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "meaning": "공부"
+      },
+      {
+        "word": "強力",
+        "reading": "きょうりょく",
+        "meaning": "강력"
+      }
+    ]
+  },
+  {
+    "character": "教",
+    "onyomi": "キョウ",
+    "kunyomi": "おし.える、おそ.わる",
+    "meanings": [
+      "teach",
+      "가르치다"
+    ],
+    "strokeCount": 11,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "教える",
+        "reading": "おしえる",
+        "meaning": "가르치다"
+      },
+      {
+        "word": "教室",
+        "reading": "きょうしつ",
+        "meaning": "교실"
+      },
+      {
+        "word": "教科書",
+        "reading": "きょうかしょ",
+        "meaning": "교과서"
+      }
+    ]
+  },
+  {
+    "character": "業",
+    "onyomi": "ギョウ、ゴウ",
+    "kunyomi": "わざ",
+    "meanings": [
+      "business",
+      "industry",
+      "업"
+    ],
+    "strokeCount": 13,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "授業",
+        "reading": "じゅぎょう",
+        "meaning": "수업"
+      },
+      {
+        "word": "卒業",
+        "reading": "そつぎょう",
+        "meaning": "졸업"
+      },
+      {
+        "word": "産業",
+        "reading": "さんぎょう",
+        "meaning": "산업"
+      }
+    ]
+  },
+  {
+    "character": "近",
+    "onyomi": "キン、コン",
+    "kunyomi": "ちか.い",
+    "meanings": [
+      "near",
+      "close",
+      "가까운"
+    ],
+    "strokeCount": 7,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "近い",
+        "reading": "ちかい",
+        "meaning": "가깝다"
+      },
+      {
+        "word": "近所",
+        "reading": "きんじょ",
+        "meaning": "근처"
+      },
+      {
+        "word": "最近",
+        "reading": "さいきん",
+        "meaning": "최근"
+      }
+    ]
+  },
+  {
+    "character": "銀",
+    "onyomi": "ギン",
+    "kunyomi": "",
+    "meanings": [
+      "silver",
+      "은"
+    ],
+    "strokeCount": 14,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "銀行",
+        "reading": "ぎんこう",
+        "meaning": "은행"
+      },
+      {
+        "word": "銀色",
+        "reading": "ぎんいろ",
+        "meaning": "은색"
+      },
+      {
+        "word": "銀メダル",
+        "reading": "ぎんメダル",
+        "meaning": "은메달"
+      }
+    ]
+  },
+  {
+    "character": "区",
+    "onyomi": "ク",
+    "kunyomi": "",
+    "meanings": [
+      "ward",
+      "district",
+      "구"
+    ],
+    "strokeCount": 4,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "区役所",
+        "reading": "くやくしょ",
+        "meaning": "구청"
+      },
+      {
+        "word": "地区",
+        "reading": "ちく",
+        "meaning": "지구"
+      },
+      {
+        "word": "区別",
+        "reading": "くべつ",
+        "meaning": "구별"
+      }
+    ]
+  },
+  {
+    "character": "計",
+    "onyomi": "ケイ",
+    "kunyomi": "はか.る、はか.らう",
+    "meanings": [
+      "measure",
+      "plan",
+      "계획"
+    ],
+    "strokeCount": 9,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "時計",
+        "reading": "とけい",
+        "meaning": "시계"
+      },
+      {
+        "word": "計画",
+        "reading": "けいかく",
+        "meaning": "계획"
+      },
+      {
+        "word": "合計",
+        "reading": "ごうけい",
+        "meaning": "합계"
+      }
+    ]
+  },
+  {
+    "character": "兄",
+    "onyomi": "ケイ、キョウ",
+    "kunyomi": "あに",
+    "meanings": [
+      "elder brother",
+      "형"
+    ],
+    "strokeCount": 5,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "お兄さん",
+        "reading": "おにいさん",
+        "meaning": "형, 오빠"
+      },
+      {
+        "word": "兄弟",
+        "reading": "きょうだい",
+        "meaning": "형제"
+      },
+      {
+        "word": "兄",
+        "reading": "あに",
+        "meaning": "형, 오빠"
+      }
+    ]
+  },
+  {
+    "character": "建",
+    "onyomi": "ケン、コン",
+    "kunyomi": "た.てる、た.つ",
+    "meanings": [
+      "build",
+      "construct",
+      "세우다"
+    ],
+    "strokeCount": 9,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "建物",
+        "reading": "たてもの",
+        "meaning": "건물"
+      },
+      {
+        "word": "建設",
+        "reading": "けんせつ",
+        "meaning": "건설"
+      },
+      {
+        "word": "建てる",
+        "reading": "たてる",
+        "meaning": "세우다"
+      }
+    ]
+  },
+  {
+    "character": "研",
+    "onyomi": "ケン",
+    "kunyomi": "と.ぐ",
+    "meanings": [
+      "polish",
+      "study",
+      "연구"
+    ],
+    "strokeCount": 9,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "研究",
+        "reading": "けんきゅう",
+        "meaning": "연구"
+      },
+      {
+        "word": "研修",
+        "reading": "けんしゅう",
+        "meaning": "연수"
+      },
+      {
+        "word": "研究室",
+        "reading": "けんきゅうしつ",
+        "meaning": "연구실"
+      }
+    ]
+  },
+  {
+    "character": "験",
+    "onyomi": "ケン、ゲン",
+    "kunyomi": "",
+    "meanings": [
+      "test",
+      "effect",
+      "시험"
+    ],
+    "strokeCount": 18,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "試験",
+        "reading": "しけん",
+        "meaning": "시험"
+      },
+      {
+        "word": "経験",
+        "reading": "けいけん",
+        "meaning": "경험"
+      },
+      {
+        "word": "実験",
+        "reading": "じっけん",
+        "meaning": "실험"
+      }
+    ]
+  },
+  {
+    "character": "元",
+    "onyomi": "ゲン、ガン",
+    "kunyomi": "もと",
+    "meanings": [
+      "origin",
+      "beginning",
+      "원래"
+    ],
+    "strokeCount": 4,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "元気",
+        "reading": "げんき",
+        "meaning": "건강한, 힘찬"
+      },
+      {
+        "word": "地元",
+        "reading": "じもと",
+        "meaning": "현지"
+      },
+      {
+        "word": "元々",
+        "reading": "もともと",
+        "meaning": "원래"
+      }
+    ]
+  },
+  {
+    "character": "言",
+    "onyomi": "ゲン、ゴン",
+    "kunyomi": "い.う、こと",
+    "meanings": [
+      "say",
+      "word",
+      "말하다"
+    ],
+    "strokeCount": 7,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "言う",
+        "reading": "いう",
+        "meaning": "말하다"
+      },
+      {
+        "word": "言葉",
+        "reading": "ことば",
+        "meaning": "말, 단어"
+      },
+      {
+        "word": "発言",
+        "reading": "はつげん",
+        "meaning": "발언"
+      }
+    ]
+  },
+  {
+    "character": "広",
+    "onyomi": "コウ",
+    "kunyomi": "ひろ.い、ひろ.がる、ひろ.げる",
+    "meanings": [
+      "wide",
+      "broad",
+      "넓은"
+    ],
+    "strokeCount": 5,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "広い",
+        "reading": "ひろい",
+        "meaning": "넓다"
+      },
+      {
+        "word": "広場",
+        "reading": "ひろば",
+        "meaning": "광장"
+      },
+      {
+        "word": "広告",
+        "reading": "こうこく",
+        "meaning": "광고"
+      }
+    ]
+  },
+  {
+    "character": "交",
+    "onyomi": "コウ",
+    "kunyomi": "まじ.わる、ま.ぜる、か.わす",
+    "meanings": [
+      "mix",
+      "exchange",
+      "교류"
+    ],
+    "strokeCount": 6,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "交通",
+        "reading": "こうつう",
+        "meaning": "교통"
+      },
+      {
+        "word": "交番",
+        "reading": "こうばん",
+        "meaning": "파출소"
+      },
+      {
+        "word": "外交",
+        "reading": "がいこう",
+        "meaning": "외교"
+      }
+    ]
+  },
+  {
+    "character": "光",
+    "onyomi": "コウ",
+    "kunyomi": "ひか.る、ひかり",
+    "meanings": [
+      "light",
+      "ray",
+      "빛"
+    ],
+    "strokeCount": 6,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "光",
+        "reading": "ひかり",
+        "meaning": "빛"
+      },
+      {
+        "word": "日光",
+        "reading": "にっこう",
+        "meaning": "햇빛"
+      },
+      {
+        "word": "観光",
+        "reading": "かんこう",
+        "meaning": "관광"
+      }
+    ]
+  },
+  {
+    "character": "考",
+    "onyomi": "コウ",
+    "kunyomi": "かんが.える",
+    "meanings": [
+      "think",
+      "consider",
+      "생각하다"
+    ],
+    "strokeCount": 6,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "考える",
+        "reading": "かんがえる",
+        "meaning": "생각하다"
+      },
+      {
+        "word": "参考",
+        "reading": "さんこう",
+        "meaning": "참고"
+      },
+      {
+        "word": "考え",
+        "reading": "かんがえ",
+        "meaning": "생각"
+      }
+    ]
+  },
+  {
+    "character": "工",
+    "onyomi": "コウ、ク",
+    "kunyomi": "",
+    "meanings": [
+      "craft",
+      "construction",
+      "공"
+    ],
+    "strokeCount": 3,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "工場",
+        "reading": "こうじょう",
+        "meaning": "공장"
+      },
+      {
+        "word": "工事",
+        "reading": "こうじ",
+        "meaning": "공사"
+      },
+      {
+        "word": "工業",
+        "reading": "こうぎょう",
+        "meaning": "공업"
+      }
+    ]
+  },
+  {
+    "character": "公",
+    "onyomi": "コウ",
+    "kunyomi": "おおやけ",
+    "meanings": [
+      "public",
+      "공공"
+    ],
+    "strokeCount": 4,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "公園",
+        "reading": "こうえん",
+        "meaning": "공원"
+      },
+      {
+        "word": "公開",
+        "reading": "こうかい",
+        "meaning": "공개"
+      },
+      {
+        "word": "公務員",
+        "reading": "こうむいん",
+        "meaning": "공무원"
+      }
+    ]
+  },
+  {
+    "character": "合",
+    "onyomi": "ゴウ、ガッ、カッ",
+    "kunyomi": "あ.う、あ.わせる",
+    "meanings": [
+      "fit",
+      "join",
+      "합하다"
+    ],
+    "strokeCount": 6,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "合う",
+        "reading": "あう",
+        "meaning": "맞다"
+      },
+      {
+        "word": "場合",
+        "reading": "ばあい",
+        "meaning": "경우"
+      },
+      {
+        "word": "試合",
+        "reading": "しあい",
+        "meaning": "시합"
+      }
+    ]
+  },
+  {
+    "character": "国",
+    "onyomi": "コク",
+    "kunyomi": "くに",
+    "meanings": [
+      "country",
+      "나라"
+    ],
+    "strokeCount": 8,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "meaning": "외국"
+      },
+      {
+        "word": "中国",
+        "reading": "ちゅうごく",
+        "meaning": "중국"
+      },
+      {
+        "word": "国際",
+        "reading": "こくさい",
+        "meaning": "국제"
+      }
+    ]
+  },
+  {
+    "character": "黒",
+    "onyomi": "コク",
+    "kunyomi": "くろ、くろ.い",
+    "meanings": [
+      "black",
+      "검정"
+    ],
+    "strokeCount": 11,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "黒い",
+        "reading": "くろい",
+        "meaning": "검다"
+      },
+      {
+        "word": "黒板",
+        "reading": "こくばん",
+        "meaning": "칠판"
+      },
+      {
+        "word": "黒",
+        "reading": "くろ",
+        "meaning": "검정색"
+      }
+    ]
+  },
+  {
+    "character": "思",
+    "onyomi": "シ",
+    "kunyomi": "おも.う",
+    "meanings": [
+      "think",
+      "생각하다"
+    ],
+    "strokeCount": 9,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "思う",
+        "reading": "おもう",
+        "meaning": "생각하다"
+      },
+      {
+        "word": "思い出",
+        "reading": "おもいで",
+        "meaning": "추억"
+      },
+      {
+        "word": "不思議",
+        "reading": "ふしぎ",
+        "meaning": "신기한"
+      }
+    ]
+  },
+  {
+    "character": "止",
+    "onyomi": "シ",
+    "kunyomi": "と.まる、と.める",
+    "meanings": [
+      "stop",
+      "멈추다"
+    ],
+    "strokeCount": 4,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "止まる",
+        "reading": "とまる",
+        "meaning": "멈추다"
+      },
+      {
+        "word": "中止",
+        "reading": "ちゅうし",
+        "meaning": "중지"
+      },
+      {
+        "word": "禁止",
+        "reading": "きんし",
+        "meaning": "금지"
+      }
+    ]
+  },
+  {
+    "character": "死",
+    "onyomi": "シ",
+    "kunyomi": "し.ぬ",
+    "meanings": [
+      "death",
+      "die",
+      "죽다"
+    ],
+    "strokeCount": 6,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "死ぬ",
+        "reading": "しぬ",
+        "meaning": "죽다"
+      },
+      {
+        "word": "必死",
+        "reading": "ひっし",
+        "meaning": "필사적"
+      },
+      {
+        "word": "死亡",
+        "reading": "しぼう",
+        "meaning": "사망"
+      }
+    ]
+  },
+  {
+    "character": "使",
+    "onyomi": "シ",
+    "kunyomi": "つか.う",
+    "meanings": [
+      "use",
+      "사용하다"
+    ],
+    "strokeCount": 8,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "使う",
+        "reading": "つかう",
+        "meaning": "사용하다"
+      },
+      {
+        "word": "大使館",
+        "reading": "たいしかん",
+        "meaning": "대사관"
+      },
+      {
+        "word": "使い方",
+        "reading": "つかいかた",
+        "meaning": "사용법"
+      }
+    ]
+  },
+  {
+    "character": "始",
+    "onyomi": "シ",
+    "kunyomi": "はじ.める、はじ.まる",
+    "meanings": [
+      "begin",
+      "start",
+      "시작하다"
+    ],
+    "strokeCount": 8,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "始める",
+        "reading": "はじめる",
+        "meaning": "시작하다"
+      },
+      {
+        "word": "始まる",
+        "reading": "はじまる",
+        "meaning": "시작되다"
+      },
+      {
+        "word": "開始",
+        "reading": "かいし",
+        "meaning": "개시"
+      }
+    ]
+  },
+  {
+    "character": "姉",
+    "onyomi": "シ",
+    "kunyomi": "あね",
+    "meanings": [
+      "elder sister",
+      "언니, 누나"
+    ],
+    "strokeCount": 8,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "お姉さん",
+        "reading": "おねえさん",
+        "meaning": "언니, 누나"
+      },
+      {
+        "word": "姉妹",
+        "reading": "しまい",
+        "meaning": "자매"
+      },
+      {
+        "word": "姉",
+        "reading": "あね",
+        "meaning": "언니, 누나"
+      }
+    ]
+  },
+  {
+    "character": "知",
+    "onyomi": "チ",
+    "kunyomi": "し.る",
+    "meanings": [
+      "know",
+      "알다"
+    ],
+    "strokeCount": 8,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "知る",
+        "reading": "しる",
+        "meaning": "알다"
+      },
+      {
+        "word": "知識",
+        "reading": "ちしき",
+        "meaning": "지식"
+      },
+      {
+        "word": "知人",
+        "reading": "ちじん",
+        "meaning": "지인"
+      }
+    ]
+  },
+  {
+    "character": "紙",
+    "onyomi": "シ",
+    "kunyomi": "かみ",
+    "meanings": [
+      "paper",
+      "종이"
+    ],
+    "strokeCount": 10,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "紙",
+        "reading": "かみ",
+        "meaning": "종이"
+      },
+      {
+        "word": "手紙",
+        "reading": "てがみ",
+        "meaning": "편지"
+      },
+      {
+        "word": "新聞紙",
+        "reading": "しんぶんし",
+        "meaning": "신문지"
+      }
+    ]
+  },
+  {
+    "character": "事",
+    "onyomi": "ジ、ズ",
+    "kunyomi": "こと",
+    "meanings": [
+      "thing",
+      "matter",
+      "일"
+    ],
+    "strokeCount": 8,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "事故",
+        "reading": "じこ",
+        "meaning": "사고"
+      },
+      {
+        "word": "仕事",
+        "reading": "しごと",
+        "meaning": "일, 직업"
+      },
+      {
+        "word": "食事",
+        "reading": "しょくじ",
+        "meaning": "식사"
+      }
+    ]
+  },
+  {
+    "character": "持",
+    "onyomi": "ジ",
+    "kunyomi": "も.つ",
+    "meanings": [
+      "hold",
+      "have",
+      "가지다"
+    ],
+    "strokeCount": 9,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "持つ",
+        "reading": "もつ",
+        "meaning": "가지다"
+      },
+      {
+        "word": "気持ち",
+        "reading": "きもち",
+        "meaning": "기분"
+      },
+      {
+        "word": "持ち物",
+        "reading": "もちもの",
+        "meaning": "소지품"
+      }
+    ]
+  },
+  {
+    "character": "自",
+    "onyomi": "ジ、シ",
+    "kunyomi": "みずか.ら",
+    "meanings": [
+      "self",
+      "자기"
+    ],
+    "strokeCount": 6,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "自分",
+        "reading": "じぶん",
+        "meaning": "자기 자신"
+      },
+      {
+        "word": "自転車",
+        "reading": "じてんしゃ",
+        "meaning": "자전거"
+      },
+      {
+        "word": "自然",
+        "reading": "しぜん",
+        "meaning": "자연"
+      }
+    ]
+  },
+  {
+    "character": "質",
+    "onyomi": "シツ、シチ",
+    "kunyomi": "",
+    "meanings": [
+      "quality",
+      "substance",
+      "질"
+    ],
+    "strokeCount": 15,
+    "grade": 5,
+    "examples": [
+      {
+        "word": "質問",
+        "reading": "しつもん",
+        "meaning": "질문"
+      },
+      {
+        "word": "品質",
+        "reading": "ひんしつ",
+        "meaning": "품질"
+      },
+      {
+        "word": "性質",
+        "reading": "せいしつ",
+        "meaning": "성질"
+      }
+    ]
+  },
+  {
+    "character": "写",
+    "onyomi": "シャ",
+    "kunyomi": "うつ.す、うつ.る",
+    "meanings": [
+      "copy",
+      "photograph",
+      "사진"
+    ],
+    "strokeCount": 5,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "写真",
+        "reading": "しゃしん",
+        "meaning": "사진"
+      },
+      {
+        "word": "写す",
+        "reading": "うつす",
+        "meaning": "베끼다, 찍다"
+      },
+      {
+        "word": "写生",
+        "reading": "しゃせい",
+        "meaning": "사생"
+      }
+    ]
+  },
+  {
+    "character": "者",
+    "onyomi": "シャ",
+    "kunyomi": "もの",
+    "meanings": [
+      "person",
+      "사람"
+    ],
+    "strokeCount": 8,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "医者",
+        "reading": "いしゃ",
+        "meaning": "의사"
+      },
+      {
+        "word": "若者",
+        "reading": "わかもの",
+        "meaning": "젊은이"
+      },
+      {
+        "word": "記者",
+        "reading": "きしゃ",
+        "meaning": "기자"
+      }
+    ]
+  },
+  {
+    "character": "借",
+    "onyomi": "シャク",
+    "kunyomi": "か.りる",
+    "meanings": [
+      "borrow",
+      "빌리다"
+    ],
+    "strokeCount": 10,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "借りる",
+        "reading": "かりる",
+        "meaning": "빌리다"
+      },
+      {
+        "word": "借金",
+        "reading": "しゃっきん",
+        "meaning": "빚"
+      },
+      {
+        "word": "貸借",
+        "reading": "たいしゃく",
+        "meaning": "대차"
+      }
+    ]
+  },
+  {
+    "character": "主",
+    "onyomi": "シュ、ス",
+    "kunyomi": "ぬし、おも",
+    "meanings": [
+      "master",
+      "main",
+      "주인"
+    ],
+    "strokeCount": 5,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "主人",
+        "reading": "しゅじん",
+        "meaning": "주인"
+      },
+      {
+        "word": "主に",
+        "reading": "おもに",
+        "meaning": "주로"
+      },
+      {
+        "word": "持ち主",
+        "reading": "もちぬし",
+        "meaning": "소유자"
+      }
+    ]
+  },
+  {
+    "character": "首",
+    "onyomi": "シュ",
+    "kunyomi": "くび",
+    "meanings": [
+      "neck",
+      "head",
+      "목"
+    ],
+    "strokeCount": 9,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "首",
+        "reading": "くび",
+        "meaning": "목"
+      },
+      {
+        "word": "首都",
+        "reading": "しゅと",
+        "meaning": "수도"
+      },
+      {
+        "word": "首相",
+        "reading": "しゅしょう",
+        "meaning": "총리"
+      }
+    ]
+  },
+  {
+    "character": "秋",
+    "onyomi": "シュウ",
+    "kunyomi": "あき",
+    "meanings": [
+      "autumn",
+      "fall",
+      "가을"
+    ],
+    "strokeCount": 9,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "秋",
+        "reading": "あき",
+        "meaning": "가을"
+      },
+      {
+        "word": "秋分",
+        "reading": "しゅうぶん",
+        "meaning": "추분"
+      },
+      {
+        "word": "秋風",
+        "reading": "あきかぜ",
+        "meaning": "가을바람"
+      }
+    ]
+  },
+  {
+    "character": "終",
+    "onyomi": "シュウ",
+    "kunyomi": "お.わる、お.える",
+    "meanings": [
+      "end",
+      "finish",
+      "끝나다"
+    ],
+    "strokeCount": 11,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "終わる",
+        "reading": "おわる",
+        "meaning": "끝나다"
+      },
+      {
+        "word": "最終",
+        "reading": "さいしゅう",
+        "meaning": "최종"
+      },
+      {
+        "word": "終了",
+        "reading": "しゅうりょう",
+        "meaning": "종료"
+      }
+    ]
+  },
+  {
+    "character": "習",
+    "onyomi": "シュウ",
+    "kunyomi": "なら.う",
+    "meanings": [
+      "learn",
+      "practice",
+      "배우다"
+    ],
+    "strokeCount": 11,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "習う",
+        "reading": "ならう",
+        "meaning": "배우다"
+      },
+      {
+        "word": "練習",
+        "reading": "れんしゅう",
+        "meaning": "연습"
+      },
+      {
+        "word": "学習",
+        "reading": "がくしゅう",
+        "meaning": "학습"
+      }
+    ]
+  },
+  {
+    "character": "集",
+    "onyomi": "シュウ",
+    "kunyomi": "あつ.まる、あつ.める",
+    "meanings": [
+      "gather",
+      "collect",
+      "모으다"
+    ],
+    "strokeCount": 12,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "集める",
+        "reading": "あつめる",
+        "meaning": "모으다"
+      },
+      {
+        "word": "集まる",
+        "reading": "あつまる",
+        "meaning": "모이다"
+      },
+      {
+        "word": "募集",
+        "reading": "ぼしゅう",
+        "meaning": "모집"
+      }
+    ]
+  },
+  {
+    "character": "住",
+    "onyomi": "ジュウ",
+    "kunyomi": "す.む、す.まう",
+    "meanings": [
+      "dwell",
+      "live",
+      "살다"
+    ],
+    "strokeCount": 7,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "住む",
+        "reading": "すむ",
+        "meaning": "살다"
+      },
+      {
+        "word": "住所",
+        "reading": "じゅうしょ",
+        "meaning": "주소"
+      },
+      {
+        "word": "住民",
+        "reading": "じゅうみん",
+        "meaning": "주민"
+      }
+    ]
+  },
+  {
+    "character": "重",
+    "onyomi": "ジュウ、チョウ",
+    "kunyomi": "おも.い、かさ.ねる、え",
+    "meanings": [
+      "heavy",
+      "pile up",
+      "무거운"
+    ],
+    "strokeCount": 9,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "重い",
+        "reading": "おもい",
+        "meaning": "무겁다"
+      },
+      {
+        "word": "重要",
+        "reading": "じゅうよう",
+        "meaning": "중요"
+      },
+      {
+        "word": "体重",
+        "reading": "たいじゅう",
+        "meaning": "체중"
+      }
+    ]
+  },
+  {
+    "character": "所",
+    "onyomi": "ショ",
+    "kunyomi": "ところ",
+    "meanings": [
+      "place",
+      "장소"
+    ],
+    "strokeCount": 8,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "場所",
+        "reading": "ばしょ",
+        "meaning": "장소"
+      },
+      {
+        "word": "近所",
+        "reading": "きんじょ",
+        "meaning": "근처"
+      },
+      {
+        "word": "住所",
+        "reading": "じゅうしょ",
+        "meaning": "주소"
+      }
+    ]
+  },
+  {
+    "character": "暑",
+    "onyomi": "ショ",
+    "kunyomi": "あつ.い",
+    "meanings": [
+      "hot",
+      "더운"
+    ],
+    "strokeCount": 12,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "暑い",
+        "reading": "あつい",
+        "meaning": "덥다"
+      },
+      {
+        "word": "暑さ",
+        "reading": "あつさ",
+        "meaning": "더위"
+      },
+      {
+        "word": "猛暑",
+        "reading": "もうしょ",
+        "meaning": "맹서"
+      }
+    ]
+  },
+  {
+    "character": "場",
+    "onyomi": "ジョウ",
+    "kunyomi": "ば",
+    "meanings": [
+      "place",
+      "场所",
+      "장소"
+    ],
+    "strokeCount": 12,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "場所",
+        "reading": "ばしょ",
+        "meaning": "장소"
+      },
+      {
+        "word": "場合",
+        "reading": "ばあい",
+        "meaning": "경우"
+      },
+      {
+        "word": "工場",
+        "reading": "こうじょう",
+        "meaning": "공장"
+      }
+    ]
+  },
+  {
+    "character": "乗",
+    "onyomi": "ジョウ",
+    "kunyomi": "の.る、の.せる",
+    "meanings": [
+      "ride",
+      "board",
+      "타다"
+    ],
+    "strokeCount": 9,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "乗る",
+        "reading": "のる",
+        "meaning": "타다"
+      },
+      {
+        "word": "乗り物",
+        "reading": "のりもの",
+        "meaning": "탈것"
+      },
+      {
+        "word": "乗客",
+        "reading": "じょうきゃく",
+        "meaning": "승객"
+      }
+    ]
+  },
+  {
+    "character": "色",
+    "onyomi": "ショク、シキ",
+    "kunyomi": "いろ",
+    "meanings": [
+      "color",
+      "색"
+    ],
+    "strokeCount": 6,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "色",
+        "reading": "いろ",
+        "meaning": "색"
+      },
+      {
+        "word": "景色",
+        "reading": "けしき",
+        "meaning": "경치"
+      },
+      {
+        "word": "茶色",
+        "reading": "ちゃいろ",
+        "meaning": "갈색"
+      }
+    ]
+  },
+  {
+    "character": "心",
+    "onyomi": "シン",
+    "kunyomi": "こころ",
+    "meanings": [
+      "heart",
+      "mind",
+      "마음"
+    ],
+    "strokeCount": 4,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "心",
+        "reading": "こころ",
+        "meaning": "마음"
+      },
+      {
+        "word": "安心",
+        "reading": "あんしん",
+        "meaning": "안심"
+      },
+      {
+        "word": "心配",
+        "reading": "しんぱい",
+        "meaning": "걱정"
+      }
+    ]
+  },
+  {
+    "character": "親",
+    "onyomi": "シン",
+    "kunyomi": "おや、した.しい",
+    "meanings": [
+      "parent",
+      "intimate",
+      "부모"
+    ],
+    "strokeCount": 16,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "親",
+        "reading": "おや",
+        "meaning": "부모"
+      },
+      {
+        "word": "両親",
+        "reading": "りょうしん",
+        "meaning": "양친"
+      },
+      {
+        "word": "親切",
+        "reading": "しんせつ",
+        "meaning": "친절"
+      }
+    ]
+  },
+  {
+    "character": "図",
+    "onyomi": "ズ、ト",
+    "kunyomi": "はか.る",
+    "meanings": [
+      "diagram",
+      "plan",
+      "그림"
+    ],
+    "strokeCount": 7,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "地図",
+        "reading": "ちず",
+        "meaning": "지도"
+      },
+      {
+        "word": "図書館",
+        "reading": "としょかん",
+        "meaning": "도서관"
+      },
+      {
+        "word": "図",
+        "reading": "ず",
+        "meaning": "그림, 도표"
+      }
+    ]
+  },
+  {
+    "character": "数",
+    "onyomi": "スウ、ス",
+    "kunyomi": "かず、かぞ.える",
+    "meanings": [
+      "number",
+      "count",
+      "수"
+    ],
+    "strokeCount": 13,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "数学",
+        "reading": "すうがく",
+        "meaning": "수학"
+      },
+      {
+        "word": "数",
+        "reading": "かず",
+        "meaning": "수"
+      },
+      {
+        "word": "人数",
+        "reading": "にんずう",
+        "meaning": "인원수"
+      }
+    ]
+  },
+  {
+    "character": "世",
+    "onyomi": "セ、セイ",
+    "kunyomi": "よ",
+    "meanings": [
+      "world",
+      "generation",
+      "세상"
+    ],
+    "strokeCount": 5,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "世界",
+        "reading": "せかい",
+        "meaning": "세계"
+      },
+      {
+        "word": "世話",
+        "reading": "せわ",
+        "meaning": "돌봄"
+      },
+      {
+        "word": "世紀",
+        "reading": "せいき",
+        "meaning": "세기"
+      }
+    ]
+  },
+  {
+    "character": "正",
+    "onyomi": "セイ、ショウ",
+    "kunyomi": "ただ.しい、まさ",
+    "meanings": [
+      "correct",
+      "right",
+      "바른"
+    ],
+    "strokeCount": 5,
+    "grade": 1,
+    "examples": [
+      {
+        "word": "正しい",
+        "reading": "ただしい",
+        "meaning": "올바르다"
+      },
+      {
+        "word": "正月",
+        "reading": "しょうがつ",
+        "meaning": "정월"
+      },
+      {
+        "word": "正確",
+        "reading": "せいかく",
+        "meaning": "정확"
+      }
+    ]
+  },
+  {
+    "character": "声",
+    "onyomi": "セイ、ショウ",
+    "kunyomi": "こえ",
+    "meanings": [
+      "voice",
+      "목소리"
+    ],
+    "strokeCount": 7,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "声",
+        "reading": "こえ",
+        "meaning": "목소리"
+      },
+      {
+        "word": "大声",
+        "reading": "おおごえ",
+        "meaning": "큰 소리"
+      },
+      {
+        "word": "声援",
+        "reading": "せいえん",
+        "meaning": "성원"
+      }
+    ]
+  },
+  {
+    "character": "切",
+    "onyomi": "セツ、サイ",
+    "kunyomi": "き.る、き.れる",
+    "meanings": [
+      "cut",
+      "자르다"
+    ],
+    "strokeCount": 4,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "切る",
+        "reading": "きる",
+        "meaning": "자르다"
+      },
+      {
+        "word": "大切",
+        "reading": "たいせつ",
+        "meaning": "소중한"
+      },
+      {
+        "word": "親切",
+        "reading": "しんせつ",
+        "meaning": "친절"
+      }
+    ]
+  },
+  {
+    "character": "説",
+    "onyomi": "セツ、ゼイ",
+    "kunyomi": "と.く",
+    "meanings": [
+      "explain",
+      "theory",
+      "설명"
+    ],
+    "strokeCount": 14,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "説明",
+        "reading": "せつめい",
+        "meaning": "설명"
+      },
+      {
+        "word": "小説",
+        "reading": "しょうせつ",
+        "meaning": "소설"
+      },
+      {
+        "word": "説得",
+        "reading": "せっとく",
+        "meaning": "설득"
+      }
+    ]
+  },
+  {
+    "character": "洗",
+    "onyomi": "セン",
+    "kunyomi": "あら.う",
+    "meanings": [
+      "wash",
+      "씻다"
+    ],
+    "strokeCount": 9,
+    "grade": 6,
+    "examples": [
+      {
+        "word": "洗う",
+        "reading": "あらう",
+        "meaning": "씻다"
+      },
+      {
+        "word": "洗濯",
+        "reading": "せんたく",
+        "meaning": "빨래"
+      },
+      {
+        "word": "洗面",
+        "reading": "せんめん",
+        "meaning": "세면"
+      }
+    ]
+  },
+  {
+    "character": "送",
+    "onyomi": "ソウ",
+    "kunyomi": "おく.る",
+    "meanings": [
+      "send",
+      "보내다"
+    ],
+    "strokeCount": 9,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "送る",
+        "reading": "おくる",
+        "meaning": "보내다"
+      },
+      {
+        "word": "送料",
+        "reading": "そうりょう",
+        "meaning": "배송료"
+      },
+      {
+        "word": "放送",
+        "reading": "ほうそう",
+        "meaning": "방송"
+      }
+    ]
+  },
+  {
+    "character": "族",
+    "onyomi": "ゾク",
+    "kunyomi": "",
+    "meanings": [
+      "tribe",
+      "family",
+      "족"
+    ],
+    "strokeCount": 11,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "家族",
+        "reading": "かぞく",
+        "meaning": "가족"
+      },
+      {
+        "word": "民族",
+        "reading": "みんぞく",
+        "meaning": "민족"
+      },
+      {
+        "word": "族",
+        "reading": "ぞく",
+        "meaning": "족"
+      }
+    ]
+  },
+  {
+    "character": "多",
+    "onyomi": "タ",
+    "kunyomi": "おお.い",
+    "meanings": [
+      "many",
+      "much",
+      "많은"
+    ],
+    "strokeCount": 6,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "多い",
+        "reading": "おおい",
+        "meaning": "많다"
+      },
+      {
+        "word": "多分",
+        "reading": "たぶん",
+        "meaning": "아마"
+      },
+      {
+        "word": "多数",
+        "reading": "たすう",
+        "meaning": "다수"
+      }
+    ]
+  },
+  {
+    "character": "太",
+    "onyomi": "タイ、タ",
+    "kunyomi": "ふと.い、ふと.る",
+    "meanings": [
+      "thick",
+      "fat",
+      "굵은"
+    ],
+    "strokeCount": 4,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "太い",
+        "reading": "ふとい",
+        "meaning": "굵다"
+      },
+      {
+        "word": "太陽",
+        "reading": "たいよう",
+        "meaning": "태양"
+      },
+      {
+        "word": "太る",
+        "reading": "ふとる",
+        "meaning": "살찌다"
+      }
+    ]
+  },
+  {
+    "character": "体",
+    "onyomi": "タイ、テイ",
+    "kunyomi": "からだ",
+    "meanings": [
+      "body",
+      "몸"
+    ],
+    "strokeCount": 7,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "体",
+        "reading": "からだ",
+        "meaning": "몸"
+      },
+      {
+        "word": "体育",
+        "reading": "たいいく",
+        "meaning": "체육"
+      },
+      {
+        "word": "体重",
+        "reading": "たいじゅう",
+        "meaning": "체중"
+      }
+    ]
+  },
+  {
+    "character": "台",
+    "onyomi": "ダイ、タイ",
+    "kunyomi": "",
+    "meanings": [
+      "pedestal",
+      "counter for machines",
+      "대"
+    ],
+    "strokeCount": 5,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "台風",
+        "reading": "たいふう",
+        "meaning": "태풍"
+      },
+      {
+        "word": "台所",
+        "reading": "だいどころ",
+        "meaning": "부엌"
+      },
+      {
+        "word": "一台",
+        "reading": "いちだい",
+        "meaning": "한 대"
+      }
+    ]
+  },
+  {
+    "character": "地",
+    "onyomi": "チ、ジ",
+    "kunyomi": "",
+    "meanings": [
+      "ground",
+      "earth",
+      "땅"
+    ],
+    "strokeCount": 6,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "地図",
+        "reading": "ちず",
+        "meaning": "지도"
+      },
+      {
+        "word": "地下鉄",
+        "reading": "ちかてつ",
+        "meaning": "지하철"
+      },
+      {
+        "word": "土地",
+        "reading": "とち",
+        "meaning": "토지"
+      }
+    ]
+  },
+  {
+    "character": "池",
+    "onyomi": "チ",
+    "kunyomi": "いけ",
+    "meanings": [
+      "pond",
+      "연못"
+    ],
+    "strokeCount": 6,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "池",
+        "reading": "いけ",
+        "meaning": "연못"
+      },
+      {
+        "word": "電池",
+        "reading": "でんち",
+        "meaning": "전지, 배터리"
+      },
+      {
+        "word": "池袋",
+        "reading": "いけぶくろ",
+        "meaning": "이케부쿠로"
+      }
+    ]
+  },
+  {
+    "character": "茶",
+    "onyomi": "チャ、サ",
+    "kunyomi": "",
+    "meanings": [
+      "tea",
+      "차"
+    ],
+    "strokeCount": 9,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "お茶",
+        "reading": "おちゃ",
+        "meaning": "차"
+      },
+      {
+        "word": "茶色",
+        "reading": "ちゃいろ",
+        "meaning": "갈색"
+      },
+      {
+        "word": "喫茶店",
+        "reading": "きっさてん",
+        "meaning": "찻집"
+      }
+    ]
+  },
+  {
+    "character": "着",
+    "onyomi": "チャク、ジャク",
+    "kunyomi": "き.る、つ.く、つ.ける",
+    "meanings": [
+      "wear",
+      "arrive",
+      "입다"
+    ],
+    "strokeCount": 12,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "着る",
+        "reading": "きる",
+        "meaning": "입다"
+      },
+      {
+        "word": "到着",
+        "reading": "とうちゃく",
+        "meaning": "도착"
+      },
+      {
+        "word": "着物",
+        "reading": "きもの",
+        "meaning": "기모노"
+      }
+    ]
+  },
+  {
+    "character": "注",
+    "onyomi": "チュウ",
+    "kunyomi": "そそ.ぐ",
+    "meanings": [
+      "pour",
+      "注意",
+      "주의"
+    ],
+    "strokeCount": 8,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "注意",
+        "reading": "ちゅうい",
+        "meaning": "주의"
+      },
+      {
+        "word": "注文",
+        "reading": "ちゅうもん",
+        "meaning": "주문"
+      },
+      {
+        "word": "注目",
+        "reading": "ちゅうもく",
+        "meaning": "주목"
+      }
+    ]
+  },
+  {
+    "character": "朝",
+    "onyomi": "チョウ",
+    "kunyomi": "あさ",
+    "meanings": [
+      "morning",
+      "아침"
+    ],
+    "strokeCount": 12,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "朝",
+        "reading": "あさ",
+        "meaning": "아침"
+      },
+      {
+        "word": "今朝",
+        "reading": "けさ",
+        "meaning": "오늘 아침"
+      },
+      {
+        "word": "朝食",
+        "reading": "ちょうしょく",
+        "meaning": "아침식사"
+      }
+    ]
+  },
+  {
+    "character": "町",
+    "onyomi": "チョウ",
+    "kunyomi": "まち",
+    "meanings": [
+      "town",
+      "마을"
+    ],
+    "strokeCount": 7,
+    "grade": 1,
+    "examples": [
+      {
+        "word": "町",
+        "reading": "まち",
+        "meaning": "마을"
+      },
+      {
+        "word": "町中",
+        "reading": "まちなか",
+        "meaning": "시내"
+      },
+      {
+        "word": "下町",
+        "reading": "したまち",
+        "meaning": "시타마치 (도심 저지대)"
+      }
+    ]
+  },
+  {
+    "character": "鳥",
+    "onyomi": "チョウ",
+    "kunyomi": "とり",
+    "meanings": [
+      "bird",
+      "새"
+    ],
+    "strokeCount": 11,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "鳥",
+        "reading": "とり",
+        "meaning": "새"
+      },
+      {
+        "word": "小鳥",
+        "reading": "ことり",
+        "meaning": "작은 새"
+      },
+      {
+        "word": "焼き鳥",
+        "reading": "やきとり",
+        "meaning": "야키토리"
+      }
+    ]
+  },
+  {
+    "character": "通",
+    "onyomi": "ツウ、ツ",
+    "kunyomi": "とお.る、とお.す、かよ.う",
+    "meanings": [
+      "pass through",
+      "traffic",
+      "통하다"
+    ],
+    "strokeCount": 10,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "通る",
+        "reading": "とおる",
+        "meaning": "지나가다"
+      },
+      {
+        "word": "交通",
+        "reading": "こうつう",
+        "meaning": "교통"
+      },
+      {
+        "word": "通学",
+        "reading": "つうがく",
+        "meaning": "통학"
+      }
+    ]
+  },
+  {
+    "character": "低",
+    "onyomi": "テイ",
+    "kunyomi": "ひく.い、ひく.める",
+    "meanings": [
+      "low",
+      "short",
+      "낮은"
+    ],
+    "strokeCount": 7,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "低い",
+        "reading": "ひくい",
+        "meaning": "낮다"
+      },
+      {
+        "word": "最低",
+        "reading": "さいてい",
+        "meaning": "최저"
+      },
+      {
+        "word": "低下",
+        "reading": "ていか",
+        "meaning": "저하"
+      }
+    ]
+  },
+  {
+    "character": "転",
+    "onyomi": "テン",
+    "kunyomi": "ころ.がる、ころ.げる、ころ.ぶ",
+    "meanings": [
+      "revolve",
+      "turn",
+      "구르다"
+    ],
+    "strokeCount": 11,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "運転",
+        "reading": "うんてん",
+        "meaning": "운전"
+      },
+      {
+        "word": "自転車",
+        "reading": "じてんしゃ",
+        "meaning": "자전거"
+      },
+      {
+        "word": "転ぶ",
+        "reading": "ころぶ",
+        "meaning": "넘어지다"
+      }
+    ]
+  },
+  {
+    "character": "届",
+    "onyomi": "",
+    "kunyomi": "とど.ける、とど.く",
+    "meanings": [
+      "deliver",
+      "reach",
+      "届ける"
+    ],
+    "strokeCount": 8,
+    "grade": 6,
+    "examples": [
+      {
+        "word": "届ける",
+        "reading": "とどける",
+        "meaning": "전달하다"
+      },
+      {
+        "word": "届く",
+        "reading": "とどく",
+        "meaning": "닿다, 도착하다"
+      },
+      {
+        "word": "届け出",
+        "reading": "とどけで",
+        "meaning": "신고"
+      }
+    ]
+  },
+  {
+    "character": "度",
+    "onyomi": "ド、タク",
+    "kunyomi": "たび",
+    "meanings": [
+      "degree",
+      "time",
+      "도"
+    ],
+    "strokeCount": 9,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "温度",
+        "reading": "おんど",
+        "meaning": "온도"
+      },
+      {
+        "word": "今度",
+        "reading": "こんど",
+        "meaning": "이번"
+      },
+      {
+        "word": "何度",
+        "reading": "なんど",
+        "meaning": "몇 번, 몇 도"
+      }
+    ]
+  },
+  {
+    "character": "都",
+    "onyomi": "ト、ツ",
+    "kunyomi": "みやこ",
+    "meanings": [
+      "metropolis",
+      "capital",
+      "도시"
+    ],
+    "strokeCount": 11,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "都市",
+        "reading": "とし",
+        "meaning": "도시"
+      },
+      {
+        "word": "東京都",
+        "reading": "とうきょうと",
+        "meaning": "도쿄도"
+      },
+      {
+        "word": "都合",
+        "reading": "つごう",
+        "meaning": "사정, 형편"
+      }
+    ]
+  },
+  {
+    "character": "答",
+    "onyomi": "トウ",
+    "kunyomi": "こた.える、こた.え",
+    "meanings": [
+      "answer",
+      "reply",
+      "대답"
+    ],
+    "strokeCount": 12,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "答える",
+        "reading": "こたえる",
+        "meaning": "대답하다"
+      },
+      {
+        "word": "回答",
+        "reading": "かいとう",
+        "meaning": "회답"
+      },
+      {
+        "word": "答え",
+        "reading": "こたえ",
+        "meaning": "대답"
+      }
+    ]
+  },
+  {
+    "character": "動",
+    "onyomi": "ドウ",
+    "kunyomi": "うご.く、うご.かす",
+    "meanings": [
+      "move",
+      "움직이다"
+    ],
+    "strokeCount": 11,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "動く",
+        "reading": "うごく",
+        "meaning": "움직이다"
+      },
+      {
+        "word": "運動",
+        "reading": "うんどう",
+        "meaning": "운동"
+      },
+      {
+        "word": "動物",
+        "reading": "どうぶつ",
+        "meaning": "동물"
+      }
+    ]
+  },
+  {
+    "character": "堂",
+    "onyomi": "ドウ",
+    "kunyomi": "",
+    "meanings": [
+      "hall",
+      "temple",
+      "당"
+    ],
+    "strokeCount": 11,
+    "grade": 5,
+    "examples": [
+      {
+        "word": "食堂",
+        "reading": "しょくどう",
+        "meaning": "식당"
+      },
+      {
+        "word": "公会堂",
+        "reading": "こうかいどう",
+        "meaning": "공회당"
+      },
+      {
+        "word": "堂々",
+        "reading": "どうどう",
+        "meaning": "당당"
+      }
+    ]
+  },
+  {
+    "character": "同",
+    "onyomi": "ドウ",
+    "kunyomi": "おな.じ",
+    "meanings": [
+      "same",
+      "같은"
+    ],
+    "strokeCount": 6,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "同じ",
+        "reading": "おなじ",
+        "meaning": "같은"
+      },
+      {
+        "word": "同時",
+        "reading": "どうじ",
+        "meaning": "동시"
+      },
+      {
+        "word": "同意",
+        "reading": "どうい",
+        "meaning": "동의"
+      }
+    ]
+  },
+  {
+    "character": "特",
+    "onyomi": "トク",
+    "kunyomi": "",
+    "meanings": [
+      "special",
+      "특별한"
+    ],
+    "strokeCount": 10,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "特に",
+        "reading": "とくに",
+        "meaning": "특히"
+      },
+      {
+        "word": "特別",
+        "reading": "とくべつ",
+        "meaning": "특별"
+      },
+      {
+        "word": "特急",
+        "reading": "とっきゅう",
+        "meaning": "특급"
+      }
+    ]
+  },
+  {
+    "character": "肉",
+    "onyomi": "ニク",
+    "kunyomi": "",
+    "meanings": [
+      "meat",
+      "flesh",
+      "고기"
+    ],
+    "strokeCount": 6,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "肉",
+        "reading": "にく",
+        "meaning": "고기"
+      },
+      {
+        "word": "牛肉",
+        "reading": "ぎゅうにく",
+        "meaning": "소고기"
+      },
+      {
+        "word": "肉屋",
+        "reading": "にくや",
+        "meaning": "정육점"
+      }
+    ]
+  },
+  {
+    "character": "売",
+    "onyomi": "バイ",
+    "kunyomi": "う.る、う.れる",
+    "meanings": [
+      "sell",
+      "팔다"
+    ],
+    "strokeCount": 7,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "売る",
+        "reading": "うる",
+        "meaning": "팔다"
+      },
+      {
+        "word": "売り場",
+        "reading": "うりば",
+        "meaning": "매장"
+      },
+      {
+        "word": "販売",
+        "reading": "はんばい",
+        "meaning": "판매"
+      }
+    ]
+  },
+  {
+    "character": "発",
+    "onyomi": "ハツ、ホツ",
+    "kunyomi": "",
+    "meanings": [
+      "departure",
+      "emit",
+      "발"
+    ],
+    "strokeCount": 9,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "出発",
+        "reading": "しゅっぱつ",
+        "meaning": "출발"
+      },
+      {
+        "word": "発見",
+        "reading": "はっけん",
+        "meaning": "발견"
+      },
+      {
+        "word": "発音",
+        "reading": "はつおん",
+        "meaning": "발음"
+      }
+    ]
+  },
+  {
+    "character": "飯",
+    "onyomi": "ハン",
+    "kunyomi": "めし",
+    "meanings": [
+      "meal",
+      "cooked rice",
+      "밥"
+    ],
+    "strokeCount": 12,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "ご飯",
+        "reading": "ごはん",
+        "meaning": "밥"
+      },
+      {
+        "word": "朝飯",
+        "reading": "あさめし",
+        "meaning": "아침밥"
+      },
+      {
+        "word": "夕飯",
+        "reading": "ゆうはん",
+        "meaning": "저녁밥"
+      }
+    ]
+  },
+  {
+    "character": "病",
+    "onyomi": "ビョウ、ヘイ",
+    "kunyomi": "や.む、やまい",
+    "meanings": [
+      "illness",
+      "disease",
+      "병"
+    ],
+    "strokeCount": 10,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "病院",
+        "reading": "びょういん",
+        "meaning": "병원"
+      },
+      {
+        "word": "病気",
+        "reading": "びょうき",
+        "meaning": "병"
+      },
+      {
+        "word": "病人",
+        "reading": "びょうにん",
+        "meaning": "환자"
+      }
+    ]
+  },
+  {
+    "character": "品",
+    "onyomi": "ヒン",
+    "kunyomi": "しな",
+    "meanings": [
+      "goods",
+      "article",
+      "물건"
+    ],
+    "strokeCount": 9,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "品物",
+        "reading": "しなもの",
+        "meaning": "물건"
+      },
+      {
+        "word": "商品",
+        "reading": "しょうひん",
+        "meaning": "상품"
+      },
+      {
+        "word": "食品",
+        "reading": "しょくひん",
+        "meaning": "식품"
+      }
+    ]
+  },
+  {
+    "character": "不",
+    "onyomi": "フ、ブ",
+    "kunyomi": "",
+    "meanings": [
+      "not",
+      "un-",
+      "불"
+    ],
+    "strokeCount": 4,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "不便",
+        "reading": "ふべん",
+        "meaning": "불편"
+      },
+      {
+        "word": "不安",
+        "reading": "ふあん",
+        "meaning": "불안"
+      },
+      {
+        "word": "不思議",
+        "reading": "ふしぎ",
+        "meaning": "신기한"
+      }
+    ]
+  },
+  {
+    "character": "風",
+    "onyomi": "フウ、フ",
+    "kunyomi": "かぜ、かざ",
+    "meanings": [
+      "wind",
+      "style",
+      "바람"
+    ],
+    "strokeCount": 9,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "風",
+        "reading": "かぜ",
+        "meaning": "바람"
+      },
+      {
+        "word": "台風",
+        "reading": "たいふう",
+        "meaning": "태풍"
+      },
+      {
+        "word": "風景",
+        "reading": "ふうけい",
+        "meaning": "풍경"
+      }
+    ]
+  },
+  {
+    "character": "服",
+    "onyomi": "フク",
+    "kunyomi": "",
+    "meanings": [
+      "clothing",
+      "옷"
+    ],
+    "strokeCount": 8,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "服",
+        "reading": "ふく",
+        "meaning": "옷"
+      },
+      {
+        "word": "洋服",
+        "reading": "ようふく",
+        "meaning": "양복"
+      },
+      {
+        "word": "制服",
+        "reading": "せいふく",
+        "meaning": "제복"
+      }
+    ]
+  },
+  {
+    "character": "物",
+    "onyomi": "ブツ、モツ",
+    "kunyomi": "もの",
+    "meanings": [
+      "thing",
+      "object",
+      "물건"
+    ],
+    "strokeCount": 8,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "物",
+        "reading": "もの",
+        "meaning": "물건"
+      },
+      {
+        "word": "動物",
+        "reading": "どうぶつ",
+        "meaning": "동물"
+      },
+      {
+        "word": "食べ物",
+        "reading": "たべもの",
+        "meaning": "음식"
+      }
+    ]
+  },
+  {
+    "character": "文",
+    "onyomi": "ブン、モン",
+    "kunyomi": "ふみ",
+    "meanings": [
+      "writing",
+      "sentence",
+      "글"
+    ],
+    "strokeCount": 4,
+    "grade": 1,
+    "examples": [
+      {
+        "word": "文化",
+        "reading": "ぶんか",
+        "meaning": "문화"
+      },
+      {
+        "word": "文章",
+        "reading": "ぶんしょう",
+        "meaning": "문장"
+      },
+      {
+        "word": "作文",
+        "reading": "さくぶん",
+        "meaning": "작문"
+      }
+    ]
+  },
+  {
+    "character": "別",
+    "onyomi": "ベツ",
+    "kunyomi": "わか.れる",
+    "meanings": [
+      "separate",
+      "different",
+      "다른"
+    ],
+    "strokeCount": 7,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "別に",
+        "reading": "べつに",
+        "meaning": "특별히, 딱히"
+      },
+      {
+        "word": "特別",
+        "reading": "とくべつ",
+        "meaning": "특별"
+      },
+      {
+        "word": "別れる",
+        "reading": "わかれる",
+        "meaning": "헤어지다"
+      }
+    ]
+  },
+  {
+    "character": "便",
+    "onyomi": "ベン、ビン",
+    "kunyomi": "たよ.り",
+    "meanings": [
+      "convenience",
+      "mail",
+      "편리"
+    ],
+    "strokeCount": 9,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "便利",
+        "reading": "べんり",
+        "meaning": "편리"
+      },
+      {
+        "word": "便所",
+        "reading": "べんじょ",
+        "meaning": "화장실"
+      },
+      {
+        "word": "郵便",
+        "reading": "ゆうびん",
+        "meaning": "우편"
+      }
+    ]
+  },
+  {
+    "character": "勉",
+    "onyomi": "ベン",
+    "kunyomi": "",
+    "meanings": [
+      "exertion",
+      "effort",
+      "힘쓰다"
+    ],
+    "strokeCount": 10,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "meaning": "공부"
+      },
+      {
+        "word": "勉強家",
+        "reading": "べんきょうか",
+        "meaning": "노력가"
+      },
+      {
+        "word": "勤勉",
+        "reading": "きんべん",
+        "meaning": "근면"
+      }
+    ]
+  },
+  {
+    "character": "歩",
+    "onyomi": "ホ、ブ、フ",
+    "kunyomi": "ある.く、あゆ.む",
+    "meanings": [
+      "walk",
+      "step",
+      "걷다"
+    ],
+    "strokeCount": 8,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "歩く",
+        "reading": "あるく",
+        "meaning": "걷다"
+      },
+      {
+        "word": "散歩",
+        "reading": "さんぽ",
+        "meaning": "산책"
+      },
+      {
+        "word": "徒歩",
+        "reading": "とほ",
+        "meaning": "도보"
+      }
+    ]
+  },
+  {
+    "character": "方",
+    "onyomi": "ホウ",
+    "kunyomi": "かた",
+    "meanings": [
+      "direction",
+      "method",
+      "방향"
+    ],
+    "strokeCount": 4,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "方法",
+        "reading": "ほうほう",
+        "meaning": "방법"
+      },
+      {
+        "word": "食べ方",
+        "reading": "たべかた",
+        "meaning": "먹는 법"
+      },
+      {
+        "word": "夕方",
+        "reading": "ゆうがた",
+        "meaning": "저녁때"
+      }
+    ]
+  },
+  {
+    "character": "妹",
+    "onyomi": "マイ",
+    "kunyomi": "いもうと",
+    "meanings": [
+      "younger sister",
+      "여동생"
+    ],
+    "strokeCount": 8,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "妹",
+        "reading": "いもうと",
+        "meaning": "여동생"
+      },
+      {
+        "word": "姉妹",
+        "reading": "しまい",
+        "meaning": "자매"
+      },
+      {
+        "word": "妹さん",
+        "reading": "いもうとさん",
+        "meaning": "여동생 (존칭)"
+      }
+    ]
+  },
+  {
+    "character": "味",
+    "onyomi": "ミ",
+    "kunyomi": "あじ、あじ.わう",
+    "meanings": [
+      "taste",
+      "flavor",
+      "맛"
+    ],
+    "strokeCount": 8,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "味",
+        "reading": "あじ",
+        "meaning": "맛"
+      },
+      {
+        "word": "意味",
+        "reading": "いみ",
+        "meaning": "의미"
+      },
+      {
+        "word": "味方",
+        "reading": "みかた",
+        "meaning": "아군"
+      }
+    ]
+  },
+  {
+    "character": "民",
+    "onyomi": "ミン",
+    "kunyomi": "たみ",
+    "meanings": [
+      "people",
+      "nation",
+      "국민"
+    ],
+    "strokeCount": 5,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "国民",
+        "reading": "こくみん",
+        "meaning": "국민"
+      },
+      {
+        "word": "市民",
+        "reading": "しみん",
+        "meaning": "시민"
+      },
+      {
+        "word": "住民",
+        "reading": "じゅうみん",
+        "meaning": "주민"
+      }
+    ]
+  },
+  {
+    "character": "問",
+    "onyomi": "モン",
+    "kunyomi": "と.う、とん",
+    "meanings": [
+      "question",
+      "ask",
+      "묻다"
+    ],
+    "strokeCount": 11,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "質問",
+        "reading": "しつもん",
+        "meaning": "질문"
+      },
+      {
+        "word": "問題",
+        "reading": "もんだい",
+        "meaning": "문제"
+      },
+      {
+        "word": "問い合わせ",
+        "reading": "といあわせ",
+        "meaning": "문의"
+      }
+    ]
+  },
+  {
+    "character": "有",
+    "onyomi": "ユウ、ウ",
+    "kunyomi": "あ.る",
+    "meanings": [
+      "have",
+      "exist",
+      "있다"
+    ],
+    "strokeCount": 6,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "有名",
+        "reading": "ゆうめい",
+        "meaning": "유명"
+      },
+      {
+        "word": "有る",
+        "reading": "ある",
+        "meaning": "있다"
+      },
+      {
+        "word": "所有",
+        "reading": "しょゆう",
+        "meaning": "소유"
+      }
+    ]
+  },
+  {
+    "character": "夕",
+    "onyomi": "セキ",
+    "kunyomi": "ゆう",
+    "meanings": [
+      "evening",
+      "저녁"
+    ],
+    "strokeCount": 3,
+    "grade": 1,
+    "examples": [
+      {
+        "word": "夕方",
+        "reading": "ゆうがた",
+        "meaning": "저녁때"
+      },
+      {
+        "word": "夕飯",
+        "reading": "ゆうはん",
+        "meaning": "저녁밥"
+      },
+      {
+        "word": "夕日",
+        "reading": "ゆうひ",
+        "meaning": "석양"
+      }
+    ]
+  },
+  {
+    "character": "用",
+    "onyomi": "ヨウ",
+    "kunyomi": "もち.いる",
+    "meanings": [
+      "use",
+      "business",
+      "쓰다"
+    ],
+    "strokeCount": 5,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "用意",
+        "reading": "ようい",
+        "meaning": "준비"
+      },
+      {
+        "word": "使用",
+        "reading": "しよう",
+        "meaning": "사용"
+      },
+      {
+        "word": "用事",
+        "reading": "ようじ",
+        "meaning": "볼일"
+      }
+    ]
+  },
+  {
+    "character": "洋",
+    "onyomi": "ヨウ",
+    "kunyomi": "",
+    "meanings": [
+      "ocean",
+      "Western",
+      "서양"
+    ],
+    "strokeCount": 9,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "洋服",
+        "reading": "ようふく",
+        "meaning": "양복"
+      },
+      {
+        "word": "西洋",
+        "reading": "せいよう",
+        "meaning": "서양"
+      },
+      {
+        "word": "太平洋",
+        "reading": "たいへいよう",
+        "meaning": "태평양"
+      }
+    ]
+  },
+  {
+    "character": "理",
+    "onyomi": "リ",
+    "kunyomi": "",
+    "meanings": [
+      "reason",
+      "logic",
+      "이치"
+    ],
+    "strokeCount": 11,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "料理",
+        "reading": "りょうり",
+        "meaning": "요리"
+      },
+      {
+        "word": "理由",
+        "reading": "りゆう",
+        "meaning": "이유"
+      },
+      {
+        "word": "無理",
+        "reading": "むり",
+        "meaning": "무리"
+      }
+    ]
+  },
+  {
+    "character": "旅",
+    "onyomi": "リョ",
+    "kunyomi": "たび",
+    "meanings": [
+      "travel",
+      "trip",
+      "여행"
+    ],
+    "strokeCount": 10,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "旅行",
+        "reading": "りょこう",
+        "meaning": "여행"
+      },
+      {
+        "word": "旅館",
+        "reading": "りょかん",
+        "meaning": "여관"
+      },
+      {
+        "word": "旅",
+        "reading": "たび",
+        "meaning": "여행"
+      }
+    ]
+  },
+  {
+    "character": "料",
+    "onyomi": "リョウ",
+    "kunyomi": "",
+    "meanings": [
+      "fee",
+      "materials",
+      "요금"
+    ],
+    "strokeCount": 10,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "料理",
+        "reading": "りょうり",
+        "meaning": "요리"
+      },
+      {
+        "word": "料金",
+        "reading": "りょうきん",
+        "meaning": "요금"
+      },
+      {
+        "word": "無料",
+        "reading": "むりょう",
+        "meaning": "무료"
+      }
+    ]
+  },
+  {
+    "character": "力",
+    "onyomi": "リョク、リキ",
+    "kunyomi": "ちから",
+    "meanings": [
+      "power",
+      "force",
+      "힘"
+    ],
+    "strokeCount": 2,
+    "grade": 1,
+    "examples": [
+      {
+        "word": "力",
+        "reading": "ちから",
+        "meaning": "힘"
+      },
+      {
+        "word": "努力",
+        "reading": "どりょく",
+        "meaning": "노력"
+      },
+      {
+        "word": "能力",
+        "reading": "のうりょく",
+        "meaning": "능력"
+      }
+    ]
+  },
+  {
+    "character": "以",
+    "onyomi": "イ",
+    "kunyomi": "",
+    "meanings": [
+      "since",
+      "by means of",
+      "이후"
+    ],
+    "strokeCount": 5,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "以上",
+        "reading": "いじょう",
+        "meaning": "이상"
+      },
+      {
+        "word": "以下",
+        "reading": "いか",
+        "meaning": "이하"
+      },
+      {
+        "word": "以前",
+        "reading": "いぜん",
+        "meaning": "이전"
+      }
+    ]
+  },
+  {
+    "character": "育",
+    "onyomi": "イク",
+    "kunyomi": "そだ.つ、そだ.てる",
+    "meanings": [
+      "raise",
+      "grow up",
+      "기르다"
+    ],
+    "strokeCount": 8,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "教育",
+        "reading": "きょういく",
+        "meaning": "교육"
+      },
+      {
+        "word": "育てる",
+        "reading": "そだてる",
+        "meaning": "기르다"
+      },
+      {
+        "word": "体育",
+        "reading": "たいいく",
+        "meaning": "체육"
+      }
+    ]
+  },
+  {
+    "character": "員",
+    "onyomi": "イン",
+    "kunyomi": "",
+    "meanings": [
+      "member",
+      "personnel",
+      "구성원"
+    ],
+    "strokeCount": 10,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "会員",
+        "reading": "かいいん",
+        "meaning": "회원"
+      },
+      {
+        "word": "店員",
+        "reading": "てんいん",
+        "meaning": "점원"
+      },
+      {
+        "word": "社員",
+        "reading": "しゃいん",
+        "meaning": "사원"
+      }
+    ]
+  },
+  {
+    "character": "活",
+    "onyomi": "カツ",
+    "kunyomi": "",
+    "meanings": [
+      "active",
+      "lively",
+      "활동"
+    ],
+    "strokeCount": 9,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "生活",
+        "reading": "せいかつ",
+        "meaning": "생활"
+      },
+      {
+        "word": "活動",
+        "reading": "かつどう",
+        "meaning": "활동"
+      },
+      {
+        "word": "活用",
+        "reading": "かつよう",
+        "meaning": "활용"
+      }
+    ]
+  },
+  {
+    "character": "苦",
+    "onyomi": "ク",
+    "kunyomi": "くる.しい、にが.い",
+    "meanings": [
+      "suffer",
+      "bitter",
+      "괴롭다"
+    ],
+    "strokeCount": 8,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "苦手",
+        "reading": "にがて",
+        "meaning": "서투르다"
+      },
+      {
+        "word": "苦労",
+        "reading": "くろう",
+        "meaning": "고생"
+      },
+      {
+        "word": "苦しい",
+        "reading": "くるしい",
+        "meaning": "괴롭다"
+      }
+    ]
+  },
+  {
+    "character": "県",
+    "onyomi": "ケン",
+    "kunyomi": "",
+    "meanings": [
+      "prefecture",
+      "현"
+    ],
+    "strokeCount": 9,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "県",
+        "reading": "けん",
+        "meaning": "현"
+      },
+      {
+        "word": "県立",
+        "reading": "けんりつ",
+        "meaning": "현립"
+      },
+      {
+        "word": "県民",
+        "reading": "けんみん",
+        "meaning": "현민"
+      }
+    ]
+  },
+  {
+    "character": "産",
+    "onyomi": "サン",
+    "kunyomi": "う.む、う.まれる",
+    "meanings": [
+      "produce",
+      "give birth",
+      "낳다"
+    ],
+    "strokeCount": 11,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "産業",
+        "reading": "さんぎょう",
+        "meaning": "산업"
+      },
+      {
+        "word": "生産",
+        "reading": "せいさん",
+        "meaning": "생산"
+      },
+      {
+        "word": "出産",
+        "reading": "しゅっさん",
+        "meaning": "출산"
+      }
+    ]
+  },
+  {
+    "character": "市",
+    "onyomi": "シ",
+    "kunyomi": "いち",
+    "meanings": [
+      "city",
+      "market",
+      "시"
+    ],
+    "strokeCount": 5,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "市場",
+        "reading": "しじょう",
+        "meaning": "시장"
+      },
+      {
+        "word": "都市",
+        "reading": "とし",
+        "meaning": "도시"
+      },
+      {
+        "word": "市民",
+        "reading": "しみん",
+        "meaning": "시민"
+      }
+    ]
+  },
+  {
+    "character": "室",
+    "onyomi": "シツ",
+    "kunyomi": "むろ",
+    "meanings": [
+      "room",
+      "chamber",
+      "방"
+    ],
+    "strokeCount": 9,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "教室",
+        "reading": "きょうしつ",
+        "meaning": "교실"
+      },
+      {
+        "word": "室内",
+        "reading": "しつない",
+        "meaning": "실내"
+      },
+      {
+        "word": "会議室",
+        "reading": "かいぎしつ",
+        "meaning": "회의실"
+      }
+    ]
+  },
+  {
+    "character": "社",
+    "onyomi": "シャ",
+    "kunyomi": "やしろ",
+    "meanings": [
+      "company",
+      "shrine",
+      "회사"
+    ],
+    "strokeCount": 7,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "meaning": "회사"
+      },
+      {
+        "word": "社会",
+        "reading": "しゃかい",
+        "meaning": "사회"
+      },
+      {
+        "word": "神社",
+        "reading": "じんじゃ",
+        "meaning": "신사"
+      }
+    ]
+  },
+  {
+    "character": "春",
+    "onyomi": "シュン",
+    "kunyomi": "はる",
+    "meanings": [
+      "spring",
+      "봄"
+    ],
+    "strokeCount": 9,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "春",
+        "reading": "はる",
+        "meaning": "봄"
+      },
+      {
+        "word": "春休み",
+        "reading": "はるやすみ",
+        "meaning": "봄방학"
+      },
+      {
+        "word": "青春",
+        "reading": "せいしゅん",
+        "meaning": "청춘"
+      }
+    ]
+  },
+  {
+    "character": "字",
+    "onyomi": "ジ",
+    "kunyomi": "あざ",
+    "meanings": [
+      "character",
+      "letter",
+      "글자"
+    ],
+    "strokeCount": 6,
+    "grade": 1,
+    "examples": [
+      {
+        "word": "漢字",
+        "reading": "かんじ",
+        "meaning": "한자"
+      },
+      {
+        "word": "文字",
+        "reading": "もじ",
+        "meaning": "문자"
+      },
+      {
+        "word": "字幕",
+        "reading": "じまく",
+        "meaning": "자막"
+      }
+    ]
+  },
+  {
+    "character": "走",
+    "onyomi": "ソウ",
+    "kunyomi": "はし.る",
+    "meanings": [
+      "run",
+      "달리다"
+    ],
+    "strokeCount": 7,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "走る",
+        "reading": "はしる",
+        "meaning": "달리다"
+      },
+      {
+        "word": "走行",
+        "reading": "そうこう",
+        "meaning": "주행"
+      },
+      {
+        "word": "競走",
+        "reading": "きょうそう",
+        "meaning": "경주"
+      }
+    ]
+  },
+  {
+    "character": "代",
+    "onyomi": "ダイ、タイ",
+    "kunyomi": "か.わる、よ、しろ",
+    "meanings": [
+      "substitute",
+      "generation",
+      "대신"
+    ],
+    "strokeCount": 5,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "時代",
+        "reading": "じだい",
+        "meaning": "시대"
+      },
+      {
+        "word": "代わり",
+        "reading": "かわり",
+        "meaning": "대신"
+      },
+      {
+        "word": "現代",
+        "reading": "げんだい",
+        "meaning": "현대"
+      }
+    ]
+  },
+  {
+    "character": "題",
+    "onyomi": "ダイ",
+    "kunyomi": "",
+    "meanings": [
+      "topic",
+      "title",
+      "제목"
+    ],
+    "strokeCount": 18,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "問題",
+        "reading": "もんだい",
+        "meaning": "문제"
+      },
+      {
+        "word": "題名",
+        "reading": "だいめい",
+        "meaning": "제목"
+      },
+      {
+        "word": "宿題",
+        "reading": "しゅくだい",
+        "meaning": "숙제"
+      }
+    ]
+  },
+  {
+    "character": "番",
+    "onyomi": "バン",
+    "kunyomi": "",
+    "meanings": [
+      "number",
+      "turn",
+      "번"
+    ],
+    "strokeCount": 12,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "番号",
+        "reading": "ばんごう",
+        "meaning": "번호"
+      },
+      {
+        "word": "番組",
+        "reading": "ばんぐみ",
+        "meaning": "프로그램"
+      },
+      {
+        "word": "交番",
+        "reading": "こうばん",
+        "meaning": "파출소"
+      }
+    ]
+  },
+  {
+    "character": "払",
+    "onyomi": "フツ",
+    "kunyomi": "はら.う",
+    "meanings": [
+      "pay",
+      "sweep",
+      "지불하다"
+    ],
+    "strokeCount": 5,
+    "grade": 0,
+    "examples": [
+      {
+        "word": "払う",
+        "reading": "はらう",
+        "meaning": "지불하다"
+      },
+      {
+        "word": "支払い",
+        "reading": "しはらい",
+        "meaning": "지불"
+      },
+      {
+        "word": "払い戻し",
+        "reading": "はらいもどし",
+        "meaning": "환불"
+      }
+    ]
+  },
+  {
+    "character": "返",
+    "onyomi": "ヘン",
+    "kunyomi": "かえ.す、かえ.る",
+    "meanings": [
+      "return",
+      "give back",
+      "돌려주다"
+    ],
+    "strokeCount": 7,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "返す",
+        "reading": "かえす",
+        "meaning": "돌려주다"
+      },
+      {
+        "word": "返事",
+        "reading": "へんじ",
+        "meaning": "대답"
+      },
+      {
+        "word": "返品",
+        "reading": "へんぴん",
+        "meaning": "반품"
+      }
+    ]
+  },
+  {
+    "character": "変",
+    "onyomi": "ヘン",
+    "kunyomi": "か.わる、か.える",
+    "meanings": [
+      "change",
+      "strange",
+      "변하다"
+    ],
+    "strokeCount": 9,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "変わる",
+        "reading": "かわる",
+        "meaning": "변하다"
+      },
+      {
+        "word": "大変",
+        "reading": "たいへん",
+        "meaning": "큰일"
+      },
+      {
+        "word": "変化",
+        "reading": "へんか",
+        "meaning": "변화"
+      }
+    ]
+  },
+  {
+    "character": "約",
+    "onyomi": "ヤク",
+    "kunyomi": "",
+    "meanings": [
+      "promise",
+      "approximately",
+      "약속"
+    ],
+    "strokeCount": 9,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "約束",
+        "reading": "やくそく",
+        "meaning": "약속"
+      },
+      {
+        "word": "予約",
+        "reading": "よやく",
+        "meaning": "예약"
+      },
+      {
+        "word": "約",
+        "reading": "やく",
+        "meaning": "약"
+      }
+    ]
+  },
+  {
+    "character": "薬",
+    "onyomi": "ヤク",
+    "kunyomi": "くすり",
+    "meanings": [
+      "medicine",
+      "drug",
+      "약"
+    ],
+    "strokeCount": 16,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "薬",
+        "reading": "くすり",
+        "meaning": "약"
+      },
+      {
+        "word": "薬局",
+        "reading": "やっきょく",
+        "meaning": "약국"
+      },
+      {
+        "word": "薬品",
+        "reading": "やくひん",
+        "meaning": "약품"
+      }
+    ]
+  },
+  {
+    "character": "若",
+    "onyomi": "ジャク",
+    "kunyomi": "わか.い",
+    "meanings": [
+      "young",
+      "젊다"
+    ],
+    "strokeCount": 8,
+    "grade": 6,
+    "examples": [
+      {
+        "word": "若い",
+        "reading": "わかい",
+        "meaning": "젊다"
+      },
+      {
+        "word": "若者",
+        "reading": "わかもの",
+        "meaning": "젊은이"
+      },
+      {
+        "word": "若干",
+        "reading": "じゃっかん",
+        "meaning": "약간"
+      }
+    ]
+  },
+  {
+    "character": "真",
+    "onyomi": "シン",
+    "kunyomi": "ま",
+    "meanings": [
+      "true",
+      "genuine",
+      "진짜"
+    ],
+    "strokeCount": 10,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "写真",
+        "reading": "しゃしん",
+        "meaning": "사진"
+      },
+      {
+        "word": "真面目",
+        "reading": "まじめ",
+        "meaning": "성실한"
+      },
+      {
+        "word": "真実",
+        "reading": "しんじつ",
+        "meaning": "진실"
+      }
+    ]
+  },
+  {
+    "character": "進",
+    "onyomi": "シン",
+    "kunyomi": "すす.む、すす.める",
+    "meanings": [
+      "advance",
+      "proceed",
+      "나아가다"
+    ],
+    "strokeCount": 11,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "進む",
+        "reading": "すすむ",
+        "meaning": "나아가다"
+      },
+      {
+        "word": "進学",
+        "reading": "しんがく",
+        "meaning": "진학"
+      },
+      {
+        "word": "前進",
+        "reading": "ぜんしん",
+        "meaning": "전진"
+      }
+    ]
+  },
+  {
+    "character": "初",
+    "onyomi": "ショ",
+    "kunyomi": "はじ.め、はつ、うい",
+    "meanings": [
+      "first",
+      "beginning",
+      "처음"
+    ],
+    "strokeCount": 7,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "初めて",
+        "reading": "はじめて",
+        "meaning": "처음으로"
+      },
+      {
+        "word": "最初",
+        "reading": "さいしょ",
+        "meaning": "최초"
+      },
+      {
+        "word": "初心者",
+        "reading": "しょしんしゃ",
+        "meaning": "초보자"
+      }
+    ]
+  },
+  {
+    "character": "平",
+    "onyomi": "ヘイ、ビョウ",
+    "kunyomi": "たい.ら、ひら",
+    "meanings": [
+      "flat",
+      "peace",
+      "평평하다"
+    ],
+    "strokeCount": 5,
+    "grade": 3,
+    "examples": [
+      {
+        "word": "平和",
+        "reading": "へいわ",
+        "meaning": "평화"
+      },
+      {
+        "word": "平日",
+        "reading": "へいじつ",
+        "meaning": "평일"
+      },
+      {
+        "word": "平均",
+        "reading": "へいきん",
+        "meaning": "평균"
+      }
+    ]
+  },
+  {
+    "character": "痛",
+    "onyomi": "ツウ",
+    "kunyomi": "いた.い、いた.む",
+    "meanings": [
+      "painful",
+      "hurt",
+      "아프다"
+    ],
+    "strokeCount": 12,
+    "grade": 6,
+    "examples": [
+      {
+        "word": "痛い",
+        "reading": "いたい",
+        "meaning": "아프다"
+      },
+      {
+        "word": "頭痛",
+        "reading": "ずつう",
+        "meaning": "두통"
+      },
+      {
+        "word": "痛み",
+        "reading": "いたみ",
+        "meaning": "통증"
+      }
+    ]
+  },
+  {
+    "character": "門",
+    "onyomi": "モン",
+    "kunyomi": "かど",
+    "meanings": [
+      "gate",
+      "문"
+    ],
+    "strokeCount": 8,
+    "grade": 2,
+    "examples": [
+      {
+        "word": "門",
+        "reading": "もん",
+        "meaning": "문"
+      },
+      {
+        "word": "専門",
+        "reading": "せんもん",
+        "meaning": "전문"
+      },
+      {
+        "word": "入門",
+        "reading": "にゅうもん",
+        "meaning": "입문"
+      }
+    ]
+  },
+  {
+    "character": "夫",
+    "onyomi": "フ、フウ",
+    "kunyomi": "おっと",
+    "meanings": [
+      "husband",
+      "남편"
+    ],
+    "strokeCount": 4,
+    "grade": 4,
+    "examples": [
+      {
+        "word": "夫",
+        "reading": "おっと",
+        "meaning": "남편"
+      },
+      {
+        "word": "夫婦",
+        "reading": "ふうふ",
+        "meaning": "부부"
+      },
+      {
+        "word": "夫人",
+        "reading": "ふじん",
+        "meaning": "부인"
+      }
+    ]
+  },
+  {
+    "character": "婦",
+    "onyomi": "フ",
+    "kunyomi": "",
+    "meanings": [
+      "wife",
+      "woman",
+      "부인"
+    ],
+    "strokeCount": 11,
+    "grade": 5,
+    "examples": [
+      {
+        "word": "夫婦",
+        "reading": "ふうふ",
+        "meaning": "부부"
+      },
+      {
+        "word": "主婦",
+        "reading": "しゅふ",
+        "meaning": "주부"
+      },
+      {
+        "word": "婦人",
+        "reading": "ふじん",
+        "meaning": "부인"
+      }
+    ]
+  }
+]

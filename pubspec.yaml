@@ -1,0 +1,71 @@
+name: kanji_study
+description: "칸지공부 - JLPT N5~N1 상용한자 2,136자 학습 앱"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Navigation
+  go_router: ^15.1.2
+
+  # Local Storage
+  shared_preferences: ^2.5.3
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  path_provider: ^2.1.5
+
+  # Utilities
+  intl: ^0.20.2
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.9.0
+  fuzzywuzzy: ^1.1.6
+
+  # Version check
+  package_info_plus: ^8.3.0
+  url_launcher: ^6.3.1
+
+  # Markdown rendering (for legal docs)
+  flutter_markdown: ^0.7.6
+
+  # App icon generation
+  flutter_launcher_icons: ^0.14.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  # Code Generation
+  build_runner: ^2.4.15
+  freezed: ^3.0.0
+  json_serializable: ^6.9.4
+  riverpod_generator: ^2.6.5
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  web:
+    generate: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#8B0000"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/
+    - assets/legal/
