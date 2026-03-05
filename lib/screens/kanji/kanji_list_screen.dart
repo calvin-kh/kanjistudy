@@ -113,6 +113,7 @@ class KanjiListScreen extends ConsumerWidget {
                       return KanjiGridCard(
                         kanji: kanji,
                         isFavorite: favoriteIds.contains(kanji.id),
+                        kanjiIds: list.map((k) => k.id!).toList(),
                       );
                     },
                   );
@@ -127,6 +128,7 @@ class KanjiListScreen extends ConsumerWidget {
                     return KanjiListCard(
                       kanji: kanji,
                       isFavorite: favoriteIds.contains(kanji.id),
+                      kanjiIds: list.map((k) => k.id!).toList(),
                     );
                   },
                 );

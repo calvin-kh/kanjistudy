@@ -10,46 +10,55 @@ import 'jlpt_badge.dart';
 class KanjiGridCard extends StatelessWidget {
   final Kanji kanji;
   final bool isFavorite;
+  final List<int>? kanjiIds;
 
   const KanjiGridCard({
     super.key,
     required this.kanji,
     this.isFavorite = false,
+    this.kanjiIds,
   });
 
   @override
   Widget build(BuildContext context) {
     return Card(
       child: InkWell(
-        onTap: () => context.push('/kanji/${kanji.id}'),
+        onTap: () => context.push('/kanji/${kanji.id}', extra: kanjiIds),
         borderRadius: AppSpacing.borderRadiusLg,
-        child: Padding(
-          padding: const EdgeInsets.all(AppSpacing.sm),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              if (isFavorite)
-                Align(
-                  alignment: Alignment.topRight,
-                  child: Icon(
-                    Icons.favorite,
-                    size: 14,
-                    color: AppColors.error,
-                  ),
+        child: Stack(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(AppSpacing.sm),
+              child: Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      kanji.character,
+                      style: AppTypography.kanjiLarge,
+                    ),
+                    AppSpacing.gapXs,
+                    Text(
+                      kanji.meanings.first,
+                      style: AppTypography.caption,
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ],
                 ),
-              Text(
-                kanji.character,
-                style: AppTypography.kanjiLarge,
               ),
-              AppSpacing.gapXs,
-              Text(
-                kanji.meanings.first,
-                style: AppTypography.caption,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
+            ),
+            if (isFavorite)
+              const Positioned(
+                top: 4,
+                right: 4,
+                child: Icon(
+                  Icons.favorite,
+                  size: 14,
+                  color: AppColors.error,
+                ),
               ),
-            ],
-          ),
+          ],
         ),
       ),
     );
@@ -60,18 +69,20 @@ class KanjiGridCard extends StatelessWidget {
 class KanjiListCard extends StatelessWidget {
   final Kanji kanji;
   final bool isFavorite;
+  final List<int>? kanjiIds;
 
   const KanjiListCard({
     super.key,
     required this.kanji,
     this.isFavorite = false,
+    this.kanjiIds,
   });
 
   @override
   Widget build(BuildContext context) {
     return Card(
       child: ListTile(
-        onTap: () => context.push('/kanji/${kanji.id}'),
+        onTap: () => context.push('/kanji/${kanji.id}', extra: kanjiIds),
         leading: SizedBox(
           width: 48,
           child: Center(

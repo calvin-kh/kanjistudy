@@ -122,7 +122,8 @@ final routerProvider = Provider<GoRouter>((ref) {
         name: 'kanjiDetail',
         builder: (context, state) {
           final id = int.parse(state.pathParameters['id']!);
-          return KanjiDetailScreen(kanjiId: id);
+          final kanjiIds = state.extra as List<int>?;
+          return KanjiDetailScreen(kanjiId: id, kanjiIds: kanjiIds);
         },
       ),
 
