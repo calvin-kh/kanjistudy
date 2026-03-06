@@ -23,9 +23,11 @@ class QuizResultScreen extends StatelessWidget {
           onPressed: () => context.go('/quiz'),
         ),
       ),
-      body: ListView(
-        padding: AppSpacing.screenPadding,
-        children: [
+      body: SafeArea(
+        top: false,
+        child: ListView(
+          padding: AppSpacing.screenPadding,
+          children: [
           // ─── Score ───
           Center(
             child: Column(
@@ -131,7 +133,8 @@ class QuizResultScreen extends StatelessWidget {
           ),
 
           AppSpacing.gapXxl,
-        ],
+          ],
+        ),
       ),
     );
   }

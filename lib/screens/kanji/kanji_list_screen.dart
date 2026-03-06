@@ -99,10 +99,14 @@ class KanjiListScreen extends ConsumerWidget {
                 }
 
                 if (displayMode == KanjiDisplayMode.grid) {
+                  final screenWidth = MediaQuery.of(context).size.width;
+                  final availableWidth = screenWidth - AppSpacing.lg * 2;
+                  final crossAxisCount = (availableWidth / 90).floor().clamp(3, 6);
+
                   return GridView.builder(
                     padding: AppSpacing.screenPadding,
-                    gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: 4,
+                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: crossAxisCount,
                       crossAxisSpacing: AppSpacing.sm,
                       mainAxisSpacing: AppSpacing.sm,
                       childAspectRatio: 0.85,

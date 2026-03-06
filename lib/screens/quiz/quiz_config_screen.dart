@@ -31,9 +31,11 @@ class _QuizConfigScreenState extends ConsumerState<QuizConfigScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('$_quizTitle 설정')),
-      body: ListView(
-        padding: AppSpacing.screenPadding,
-        children: [
+      body: SafeArea(
+        top: false,
+        child: ListView(
+          padding: AppSpacing.screenPadding,
+          children: [
           // JLPT Level Selection
           Text('JLPT 레벨', style: AppTypography.headlineMedium),
           AppSpacing.gapSm,
@@ -94,7 +96,8 @@ class _QuizConfigScreenState extends ConsumerState<QuizConfigScreen> {
               ),
             ),
           ),
-        ],
+          ],
+        ),
       ),
     );
   }

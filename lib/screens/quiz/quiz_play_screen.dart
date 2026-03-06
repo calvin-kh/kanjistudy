@@ -118,9 +118,11 @@ class _QuizPlayScreenState extends ConsumerState<QuizPlayScreen> {
           ),
         ),
       ),
-      body: Padding(
-        padding: AppSpacing.screenPadding,
-        child: Column(
+      body: SafeArea(
+        top: false,
+        child: Padding(
+          padding: AppSpacing.screenPadding,
+          child: Column(
           children: [
             const Spacer(),
 
@@ -198,6 +200,7 @@ class _QuizPlayScreenState extends ConsumerState<QuizPlayScreen> {
 
             AppSpacing.gapXl,
           ],
+          ),
         ),
       ),
     );

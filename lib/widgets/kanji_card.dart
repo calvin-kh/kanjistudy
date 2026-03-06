@@ -33,9 +33,14 @@ class KanjiGridCard extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text(
-                      kanji.character,
-                      style: AppTypography.kanjiLarge,
+                    Flexible(
+                      child: FittedBox(
+                        fit: BoxFit.scaleDown,
+                        child: Text(
+                          kanji.character,
+                          style: AppTypography.kanjiLarge,
+                        ),
+                      ),
                     ),
                     AppSpacing.gapXs,
                     Text(
