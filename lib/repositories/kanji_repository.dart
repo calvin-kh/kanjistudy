@@ -16,6 +16,17 @@ class KanjiRepository {
     return result.rows.map((r) => _fromRow(_rowToMap(r, result.columns))).toList();
   }
 
+  /// Get multiple kanji by IDs
+  Future<List<Kanji>> getByIds(List<int> ids) async {
+    if (ids.isEmpty) return [];
+    final placeholders = ids.map((_) => '?').join(',');
+    final result = await db.query(
+      'SELECT * FROM kanji WHERE id IN ($placeholders) ORDER BY jlptLevel DESC, id',
+      ids,
+    );
+    return result.rows.map((r) => _fromRow(_rowToMap(r, result.columns))).toList();
+  }
+
   /// Get kanji by ID
   Future<Kanji?> getById(int id) async {
     final result = await db.query(

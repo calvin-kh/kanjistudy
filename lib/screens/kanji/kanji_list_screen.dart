@@ -98,6 +98,8 @@ class KanjiListScreen extends ConsumerWidget {
                   );
                 }
 
+                final kanjiIds = list.map((k) => k.id!).toList();
+
                 if (displayMode == KanjiDisplayMode.grid) {
                   final screenWidth = MediaQuery.of(context).size.width;
                   final availableWidth = screenWidth - AppSpacing.lg * 2;
@@ -117,7 +119,7 @@ class KanjiListScreen extends ConsumerWidget {
                       return KanjiGridCard(
                         kanji: kanji,
                         isFavorite: favoriteIds.contains(kanji.id),
-                        kanjiIds: list.map((k) => k.id!).toList(),
+                        kanjiIds: kanjiIds,
                       );
                     },
                   );
@@ -132,7 +134,7 @@ class KanjiListScreen extends ConsumerWidget {
                     return KanjiListCard(
                       kanji: kanji,
                       isFavorite: favoriteIds.contains(kanji.id),
-                      kanjiIds: list.map((k) => k.id!).toList(),
+                      kanjiIds: kanjiIds,
                     );
                   },
                 );

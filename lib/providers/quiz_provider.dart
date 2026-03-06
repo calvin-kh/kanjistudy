@@ -5,6 +5,7 @@ import '../models/kanji.dart';
 import '../models/quiz.dart';
 import '../repositories/kanji_repository.dart';
 import '../repositories/quiz_repository.dart';
+import 'kanji_provider.dart';
 
 final quizRepositoryProvider = Provider<QuizRepository>((ref) {
   return QuizRepository(DatabaseService.instance);
@@ -49,7 +50,7 @@ class QuizSessionNotifier extends StateNotifier<QuizSessionState?> {
     int? jlptLevel,
     int questionCount = 10,
   }) async {
-    final kanjiRepo = KanjiRepository(DatabaseService.instance);
+    final kanjiRepo = ref.read(kanjiRepositoryProvider);
     final quizRepo = ref.read(quizRepositoryProvider);
 
     // Get priority kanji IDs

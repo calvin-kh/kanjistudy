@@ -45,6 +45,13 @@ class DatabaseService {
       onCreate: (db, version) async {
         await _createTables(db);
       },
+      onUpgrade: (db, oldVersion, newVersion) async {
+        if (kDebugMode) {
+          print('[DatabaseService] Upgrading DB from v$oldVersion to v$newVersion');
+        }
+        // Future migrations go here:
+        // if (oldVersion < 2) { await _migrateV1toV2(db); }
+      },
     );
 
     _isInitialized = true;

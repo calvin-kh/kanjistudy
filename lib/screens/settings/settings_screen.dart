@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:url_launcher/url_launcher.dart';
+import '../../database/database_service.dart';
+import '../../providers/favorite_provider.dart';
 import '../../providers/settings_provider.dart';
 
 class SettingsScreen extends ConsumerWidget {
@@ -147,11 +149,20 @@ class SettingsScreen extends ConsumerWidget {
           ),
           TextButton(
             onPressed: () async {
-              // TODO: Implement data reset
-              Navigator.pop(context);
-              ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(content: Text('학습 데이터가 초기화되었습니다')),
-              );
+              final db = DatabaseService.instance;
+              await db.execute('DELETE FROM favorites');
+              await db.execute('DELETE FROM study_progress');
+              await db.execute('DELETE FROM quiz_results');
+              await db.execute('DELETE FROM quiz_item_stats');
+              await db.execute('DELETE FROM daily_goals');
+              ref.invalidate(favoriteIdsProvider);
+              ref.invalidate(favoriteKanjiListProvider);
+              if (context.mounted) {
+                Navigator.pop(context);
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(content: Text('학습 데이터가 초기화되었습니다')),
+                );
+              }
             },
             style: TextButton.styleFrom(foregroundColor: Colors.red),
             child: const Text('초기화'),

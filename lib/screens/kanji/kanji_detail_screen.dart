@@ -230,7 +230,7 @@ class _KanjiDetailBody extends ConsumerWidget {
             AppSpacing.gapXl,
             Text('학습 상태', style: AppTypography.headlineMedium),
             AppSpacing.gapSm,
-            _StudyStatusButtons(kanjiId: kanji.id!, ref: ref),
+            _StudyStatusButtons(kanjiId: kanji.id!),
 
             if (showSwipeHint) ...[
               AppSpacing.gapXl,
@@ -252,17 +252,16 @@ class _KanjiDetailBody extends ConsumerWidget {
   }
 }
 
-class _StudyStatusButtons extends StatefulWidget {
+class _StudyStatusButtons extends ConsumerStatefulWidget {
   final int kanjiId;
-  final WidgetRef ref;
 
-  const _StudyStatusButtons({required this.kanjiId, required this.ref});
+  const _StudyStatusButtons({required this.kanjiId});
 
   @override
-  State<_StudyStatusButtons> createState() => _StudyStatusButtonsState();
+  ConsumerState<_StudyStatusButtons> createState() => _StudyStatusButtonsState();
 }
 
-class _StudyStatusButtonsState extends State<_StudyStatusButtons> {
+class _StudyStatusButtonsState extends ConsumerState<_StudyStatusButtons> {
   StudyStatus? _currentStatus;
   bool _loading = true;
 
@@ -273,7 +272,7 @@ class _StudyStatusButtonsState extends State<_StudyStatusButtons> {
   }
 
   Future<void> _loadStatus() async {
-    final repo = widget.ref.read(progressRepositoryProvider);
+    final repo = ref.read(progressRepositoryProvider);
     final status = await repo.getStatus(widget.kanjiId);
     if (mounted) {
       setState(() {
@@ -284,13 +283,13 @@ class _StudyStatusButtonsState extends State<_StudyStatusButtons> {
   }
 
   Future<void> _updateStatus(StudyStatus status) async {
-    final repo = widget.ref.read(progressRepositoryProvider);
+    final repo = ref.read(progressRepositoryProvider);
     await repo.updateStatus(widget.kanjiId, status);
     if (mounted) {
       setState(() => _currentStatus = status);
     }
     // Refresh progress stats
-    widget.ref.invalidate(studyProgressProvider);
+    ref.invalidate(studyProgressProvider);
   }
 
   @override

@@ -17,7 +17,7 @@ final kanjiListProvider = FutureProvider.family<List<Kanji>, int>((ref, level) a
 });
 
 /// Kanji detail by ID
-final kanjiDetailProvider = FutureProvider.family<Kanji?, int>((ref, id) async {
+final kanjiDetailProvider = FutureProvider.autoDispose.family<Kanji?, int>((ref, id) async {
   final repo = ref.watch(kanjiRepositoryProvider);
   return repo.getById(id);
 });

@@ -2,7 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../database/database_service.dart';
 import '../models/kanji.dart';
 import '../repositories/favorite_repository.dart';
-import '../repositories/kanji_repository.dart';
+import 'kanji_provider.dart';
 
 final favoriteRepositoryProvider = Provider<FavoriteRepository>((ref) {
   return FavoriteRepository(DatabaseService.instance);
@@ -44,11 +44,6 @@ final favoriteKanjiListProvider = FutureProvider<List<Kanji>>((ref) async {
   final favoriteIds = ref.watch(favoriteIdsProvider);
   if (favoriteIds.isEmpty) return [];
 
-  final kanjiRepo = KanjiRepository(DatabaseService.instance);
-  final results = <Kanji>[];
-  for (final id in favoriteIds) {
-    final kanji = await kanjiRepo.getById(id);
-    if (kanji != null) results.add(kanji);
-  }
-  return results;
+  final kanjiRepo = ref.watch(kanjiRepositoryProvider);
+  return kanjiRepo.getByIds(favoriteIds.toList());
 });

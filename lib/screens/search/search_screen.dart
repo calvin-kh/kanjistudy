@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../config/spacing.dart';
@@ -15,9 +16,11 @@ class SearchScreen extends ConsumerStatefulWidget {
 
 class _SearchScreenState extends ConsumerState<SearchScreen> {
   final _controller = TextEditingController();
+  Timer? _debounce;
 
   @override
   void dispose() {
+    _debounce?.cancel();
     _controller.dispose();
     super.dispose();
   }
@@ -40,7 +43,10 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
             focusedBorder: InputBorder.none,
           ),
           onChanged: (value) {
-            ref.read(kanjiSearchQueryProvider.notifier).state = value;
+            _debounce?.cancel();
+            _debounce = Timer(const Duration(milliseconds: 300), () {
+              ref.read(kanjiSearchQueryProvider.notifier).state = value;
+            });
           },
         ),
         actions: [
@@ -69,6 +75,7 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
                     subtitle: '"$query"에 대한 결과를 찾을 수 없습니다',
                   );
                 }
+                final kanjiIds = list.map((k) => k.id!).toList();
                 return ListView.separated(
                   padding: AppSpacing.screenPadding,
                   itemCount: list.length,
@@ -78,7 +85,7 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
                     return KanjiListCard(
                       kanji: kanji,
                       isFavorite: favoriteIds.contains(kanji.id),
-                      kanjiIds: list.map((k) => k.id!).toList(),
+                      kanjiIds: kanjiIds,
                     );
                   },
                 );

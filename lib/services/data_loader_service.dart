@@ -54,28 +54,30 @@ class DataLoaderService {
     try {
       final jsonString = await rootBundle.loadString(fileName);
       final List<dynamic> kanjiList = jsonDecode(jsonString);
+      final now = DateTime.now().toUtc().toIso8601String();
 
+      final batch = db.database.batch();
       for (final kanjiData in kanjiList) {
-        final character = kanjiData['character'] as String;
-        final onyomi = kanjiData['onyomi'] as String?;
-        final kunyomi = kanjiData['kunyomi'] as String?;
-        final meanings = jsonEncode(kanjiData['meanings'] as List);
-        final strokeCount = kanjiData['strokeCount'] as int?;
-        final grade = kanjiData['grade'] as int?;
-        final examples = kanjiData['examples'] != null
-            ? jsonEncode(kanjiData['examples'] as List)
-            : '[]';
-        final now = DateTime.now().toUtc().toIso8601String();
-
-        await db.execute(
+        batch.rawInsert(
           '''
           INSERT OR IGNORE INTO kanji
             (character, onyomi, kunyomi, meanings, strokeCount, jlptLevel, grade, examples, createdAt)
           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
           ''',
-          [character, onyomi, kunyomi, meanings, strokeCount, level, grade, examples, now],
+          [
+            kanjiData['character'] as String,
+            kanjiData['onyomi'] as String?,
+            kanjiData['kunyomi'] as String?,
+            jsonEncode(kanjiData['meanings'] as List),
+            kanjiData['strokeCount'] as int?,
+            level,
+            kanjiData['grade'] as int?,
+            kanjiData['examples'] != null ? jsonEncode(kanjiData['examples'] as List) : '[]',
+            now,
+          ],
         );
       }
+      await batch.commit(noResult: true);
 
       if (kDebugMode) {
         print('[DataLoader] Loaded N$level: ${kanjiList.length} kanji');
@@ -84,6 +86,7 @@ class DataLoaderService {
       if (kDebugMode) {
         print('[DataLoader] Failed to load N$level: $e');
       }
+      rethrow;
     }
   }
 }

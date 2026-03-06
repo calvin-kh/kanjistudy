@@ -25,6 +25,7 @@ class FavoritesScreen extends ConsumerWidget {
             );
           }
 
+          final kanjiIds = list.map((k) => k.id!).toList();
           return ListView.separated(
             padding: AppSpacing.screenPadding,
             itemCount: list.length,
@@ -34,7 +35,7 @@ class FavoritesScreen extends ConsumerWidget {
               return KanjiListCard(
                 kanji: kanji,
                 isFavorite: favoriteIds.contains(kanji.id),
-                kanjiIds: list.map((k) => k.id!).toList(),
+                kanjiIds: kanjiIds,
               );
             },
           );
