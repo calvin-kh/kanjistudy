@@ -5063,35 +5063,6 @@
     ]
   },
   {
-    "character": "聞",
-    "onyomi": "ブン、モン",
-    "kunyomi": "き.く、き.こえる",
-    "meanings": [
-      "hear",
-      "ask",
-      "듣다"
-    ],
-    "strokeCount": 14,
-    "grade": 2,
-    "examples": [
-      {
-        "word": "新聞",
-        "reading": "しんぶん",
-        "meaning": "신문"
-      },
-      {
-        "word": "聞こえる",
-        "reading": "きこえる",
-        "meaning": "들리다"
-      },
-      {
-        "word": "見聞",
-        "reading": "けんぶん",
-        "meaning": "견문"
-      }
-    ]
-  },
-  {
     "character": "違",
     "onyomi": "イ",
     "kunyomi": "ちが.う",

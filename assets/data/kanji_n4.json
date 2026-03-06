@@ -1325,35 +1325,6 @@
     ]
   },
   {
-    "character": "広",
-    "onyomi": "コウ",
-    "kunyomi": "ひろ.い、ひろ.がる、ひろ.げる",
-    "meanings": [
-      "wide",
-      "broad",
-      "넓은"
-    ],
-    "strokeCount": 5,
-    "grade": 2,
-    "examples": [
-      {
-        "word": "広い",
-        "reading": "ひろい",
-        "meaning": "넓다"
-      },
-      {
-        "word": "広場",
-        "reading": "ひろば",
-        "meaning": "광장"
-      },
-      {
-        "word": "広告",
-        "reading": "こうこく",
-        "meaning": "광고"
-      }
-    ]
-  },
-  {
     "character": "交",
     "onyomi": "コウ",
     "kunyomi": "まじ.わる、ま.ぜる、か.わす",
@@ -2727,35 +2698,6 @@
     ]
   },
   {
-    "character": "多",
-    "onyomi": "タ",
-    "kunyomi": "おお.い",
-    "meanings": [
-      "many",
-      "much",
-      "많은"
-    ],
-    "strokeCount": 6,
-    "grade": 2,
-    "examples": [
-      {
-        "word": "多い",
-        "reading": "おおい",
-        "meaning": "많다"
-      },
-      {
-        "word": "多分",
-        "reading": "たぶん",
-        "meaning": "아마"
-      },
-      {
-        "word": "多数",
-        "reading": "たすう",
-        "meaning": "다수"
-      }
-    ]
-  },
-  {
     "character": "太",
     "onyomi": "タイ、タ",
     "kunyomi": "ふと.い、ふと.る",
@@ -2781,34 +2723,6 @@
         "word": "太る",
         "reading": "ふとる",
         "meaning": "살찌다"
-      }
-    ]
-  },
-  {
-    "character": "体",
-    "onyomi": "タイ、テイ",
-    "kunyomi": "からだ",
-    "meanings": [
-      "body",
-      "몸"
-    ],
-    "strokeCount": 7,
-    "grade": 2,
-    "examples": [
-      {
-        "word": "体",
-        "reading": "からだ",
-        "meaning": "몸"
-      },
-      {
-        "word": "体育",
-        "reading": "たいいく",
-        "meaning": "체육"
-      },
-      {
-        "word": "体重",
-        "reading": "たいじゅう",
-        "meaning": "체중"
       }
     ]
   },
