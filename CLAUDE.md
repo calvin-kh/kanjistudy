@@ -51,6 +51,9 @@ dart run flutter_launcher_icons  # 아이콘 재생성
 - No userId in any model or query (fully local)
 - File naming: snake_case, Class naming: PascalCase
 - **TextStyle에 color 하드코딩 금지** → Theme 자동 적용 (다크/라이트 대응)
+- **TextScaler.noScaling** → app.dart builder에서 시스템 글자 크기 무시
+- **ShellRoute 밖 풀스크린** → body에 `SafeArea(top: false)` 필수 (edge-to-edge 대응)
+- **그리드 열 수** → 고정값 대신 화면 너비 기반 동적 계산
 
 ## Project Structure
 
@@ -126,3 +129,5 @@ landing/
 | 1.0.0+2 | 2 | 비공개 테스트 |
 | 1.0.1+3 | 3 | 다크모드 수정 |
 | 1.0.2+4 | 4 | 텍스트 색상 완전 수정 |
+| 1.0.2+5 | 5 | 스와이프 네비게이션 + 즐겨찾기 오버레이 |
+| 1.0.2+6 | 6 | 텍스트 스케일 고정 + 반응형 그리드 + edge-to-edge |
