@@ -11,11 +11,10 @@ void main() async {
   final db = DatabaseService.instance;
   await db.initialize();
 
-  // Load kanji data if not already loaded
+  // 최초 설치는 전체 적재, 기존 설치는 데이터 버전이 바뀐 경우에만 재동기화.
+  // 사용자 데이터(즐겨찾기/진도/퀴즈통계)는 kanji.id를 보존하는 방식이라 승계된다.
   final dataLoader = DataLoaderService(db);
-  if (!await dataLoader.isDataLoaded()) {
-    await dataLoader.loadAllData();
-  }
+  await dataLoader.syncIfNeeded();
 
   runApp(const ProviderScope(child: KanjiStudyApp()));
 }

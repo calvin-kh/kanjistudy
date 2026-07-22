@@ -2,7 +2,7 @@ name: kanji_study
 description: "칸지공부 - JLPT N5~N1 상용한자 2,136자 학습 앱"
 publish_to: 'none'
 
-version: 1.0.3+7
+version: 1.1.0+8
 
 environment:
   sdk: ^3.8.0
@@ -37,7 +37,8 @@ dependencies:
   url_launcher: ^6.3.1
 
   # Markdown rendering (for legal docs)
-  flutter_markdown: ^0.7.6
+  # flutter_markdown은 2025-05 공식 discontinued. 커뮤니티 후속 패키지로 이전.
+  flutter_markdown_plus: ^1.0.0
 
   # App icon generation
   flutter_launcher_icons: ^0.14.3
