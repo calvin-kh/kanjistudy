@@ -152,6 +152,7 @@ landing/
 | 1.0.2+6 | 6 | 텍스트 스케일 고정 + 반응형 그리드 + edge-to-edge |
 | 1.0.3+7 | 7 | 코드 최적화 (batch INSERT, N+1 fix, debounce, provider 정리) |
 | 1.1.0+8 | 8 | targetSdk 36 (Play 2026-08-31 대응) + 음독 후리가나 표기 + 데이터 동기화 수정 |
+| 1.1.1+9 | 9 | 한자 목록 LIMIT 200 제거 (N3·N2·N1 전체 표시) |
 
 ## Android 타겟 정책
 

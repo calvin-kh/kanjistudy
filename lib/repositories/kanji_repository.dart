@@ -9,11 +9,19 @@ class KanjiRepository {
   KanjiRepository(this.db);
 
   /// Get all kanji for a JLPT level
-  Future<List<Kanji>> getByLevel(int level, {int limit = 200, int offset = 0}) async {
-    final result = await db.query(
-      'SELECT * FROM kanji WHERE jlptLevel = ? ORDER BY id LIMIT ? OFFSET ?',
-      [level, limit, offset],
-    );
+  ///
+  /// [limit] 미지정 시 해당 레벨 전체를 가져온다. 목록 화면은 페이지네이션 없이
+  /// 전체를 그리므로 상한을 걸면 N3(384)·N2(353)·N1(1,158)이 잘린다.
+  Future<List<Kanji>> getByLevel(int level, {int? limit, int offset = 0}) async {
+    final result = limit == null
+        ? await db.query(
+            'SELECT * FROM kanji WHERE jlptLevel = ? ORDER BY id',
+            [level],
+          )
+        : await db.query(
+            'SELECT * FROM kanji WHERE jlptLevel = ? ORDER BY id LIMIT ? OFFSET ?',
+            [level, limit, offset],
+          );
     return result.rows.map((r) => _fromRow(_rowToMap(r, result.columns))).toList();
   }
 
