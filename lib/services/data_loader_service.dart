@@ -31,14 +31,6 @@ class DataLoaderService {
 
   static const List<int> _levels = [5, 4, 3, 2, 1];
 
-  /// 데이터 로딩 여부 확인
-  Future<bool> isDataLoaded() async {
-    final result = await db.query(
-      "SELECT value FROM app_meta WHERE key = 'data_version'",
-    );
-    return result.rows.isNotEmpty;
-  }
-
   /// 현재 기기에 적재된 데이터 버전
   Future<String?> getDataVersion() async {
     final result = await db.query(
