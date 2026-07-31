@@ -119,10 +119,4 @@ class DatabaseService {
     _database = null;
     _isInitialized = false;
   }
-
-  Future<void> deleteDatabase() async {
-    await close();
-    final dbPath = await _getDbPath();
-    await databaseFactory.deleteDatabase(dbPath);
-  }
 }

@@ -16,7 +16,10 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace = "com.kanjistudy.kanji_study"
-    compileSdk = flutter.compileSdkVersion
+    // Google Play는 2026-08-31부터 API 36(Android 16) 타겟을 요구한다.
+    // Flutter SDK 기본값(flutter.compileSdkVersion / targetSdkVersion)은 35라
+    // SDK 버전에 의존하지 않도록 명시적으로 고정한다.
+    compileSdk = 36
     ndkVersion = "27.0.12077973"
 
     compileOptions {
@@ -31,7 +34,7 @@ android {
     defaultConfig {
         applicationId = "com.kanjistudy.app"
         minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
+        targetSdk = 36
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }

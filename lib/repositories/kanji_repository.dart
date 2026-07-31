@@ -1,6 +1,7 @@
 import 'dart:convert';
 import '../database/database_service.dart';
 import '../models/kanji.dart';
+import '../utils/kana.dart';
 
 class KanjiRepository {
   final DatabaseService db;
@@ -8,11 +9,19 @@ class KanjiRepository {
   KanjiRepository(this.db);
 
   /// Get all kanji for a JLPT level
-  Future<List<Kanji>> getByLevel(int level, {int limit = 200, int offset = 0}) async {
-    final result = await db.query(
-      'SELECT * FROM kanji WHERE jlptLevel = ? ORDER BY id LIMIT ? OFFSET ?',
-      [level, limit, offset],
-    );
+  ///
+  /// [limit] 미지정 시 해당 레벨 전체를 가져온다. 목록 화면은 페이지네이션 없이
+  /// 전체를 그리므로 상한을 걸면 N3(384)·N2(353)·N1(1,158)이 잘린다.
+  Future<List<Kanji>> getByLevel(int level, {int? limit, int offset = 0}) async {
+    final result = limit == null
+        ? await db.query(
+            'SELECT * FROM kanji WHERE jlptLevel = ? ORDER BY id',
+            [level],
+          )
+        : await db.query(
+            'SELECT * FROM kanji WHERE jlptLevel = ? ORDER BY id LIMIT ? OFFSET ?',
+            [level, limit, offset],
+          );
     return result.rows.map((r) => _fromRow(_rowToMap(r, result.columns))).toList();
   }
 
@@ -75,19 +84,35 @@ class KanjiRepository {
   }
 
   /// Search kanji by character, reading, or meaning
+  ///
+  /// 음독은 후리가나로 노출되지만 DB에는 카타카나로 저장되어 있으므로,
+  /// 히라가나/카타카나 어느 쪽으로 입력해도 양쪽 읽기가 모두 매칭되도록
+  /// 검색어를 두 표기로 정규화해 대조한다.
   Future<List<Kanji>> search(String query) async {
     final pattern = '%$query%';
+    final katakanaPattern = '%${Kana.toKatakana(query)}%';
+    final hiraganaPattern = '%${Kana.toHiragana(query)}%';
+
     final result = await db.query(
       '''
       SELECT * FROM kanji
       WHERE character LIKE ?
          OR onyomi LIKE ?
+         OR onyomi LIKE ?
+         OR kunyomi LIKE ?
          OR kunyomi LIKE ?
          OR meanings LIKE ?
       ORDER BY jlptLevel DESC, id
       LIMIT 50
       ''',
-      [pattern, pattern, pattern, pattern],
+      [
+        pattern,
+        pattern,
+        katakanaPattern,
+        pattern,
+        hiraganaPattern,
+        pattern,
+      ],
     );
     return result.rows.map((r) => _fromRow(_rowToMap(r, result.columns))).toList();
   }
@@ -148,10 +173,15 @@ class KanjiRepository {
       examples = [];
     }
 
+    // 음독은 DB에 카타카나로 저장되어 있다. 앱 전역에서 후리가나(히라가나)로
+    // 노출하기 위해 이 한 곳에서만 변환한다. DB 원본은 건드리지 않으므로
+    // 표기 방식을 되돌리려면 이 줄만 되돌리면 된다.
+    final onyomiRaw = row['onyomi'] as String?;
+
     return Kanji(
       id: row['id'] as int,
       character: row['character'] as String,
-      onyomi: row['onyomi'] as String?,
+      onyomi: onyomiRaw == null ? null : Kana.toHiragana(onyomiRaw),
       kunyomi: row['kunyomi'] as String?,
       meanings: meanings,
       strokeCount: row['strokeCount'] as int?,

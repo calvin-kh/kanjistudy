@@ -55,6 +55,25 @@ dart run flutter_launcher_icons  # 아이콘 재생성
 - **ShellRoute 밖 풀스크린** → body에 `SafeArea(top: false)` 필수 (edge-to-edge 대응)
 - **그리드 열 수** → 고정값 대신 화면 너비 기반 동적 계산
 
+### ⚠️ 한자 데이터 동기화 (절대 규칙)
+
+`favorites` / `study_progress` / `quiz_item_stats` / `quiz_results`는 전부
+`kanji.id` 정수를 FK로 물고 있다. **한자 마스터를 지우고 다시 넣으면
+AUTOINCREMENT id가 재발급되어 사용자 데이터가 통째로 유실된다.**
+
+- `DELETE FROM kanji` 후 재적재 **금지**
+- 동기화는 반드시 `character`(UNIQUE) 기준 `INSERT OR IGNORE` + `UPDATE ... WHERE character = ?`
+- UPSERT(`ON CONFLICT DO UPDATE`) 사용 금지 — minSdk 21의 시스템 SQLite 3.8.x는 미지원 (3.24+ 필요)
+- `assets/data/*.json`을 수정하면 **`DataLoaderService.kDataVersion`을 반드시 올릴 것.**
+  안 올리면 기존 설치 사용자에게 영원히 반영되지 않는다.
+
+### 음독 표기
+
+음독은 원본 데이터(JSON/DB)에 **카타카나**로 저장하고, 화면에는 **후리가나(히라가나)**로
+노출한다. 변환 지점은 `KanjiRepository._fromRow` 한 곳뿐이며 `lib/utils/kana.dart`를 쓴다.
+DB 원본을 보존하므로 표기 방식 변경 시 마이그레이션이 필요 없다.
+검색은 `search()`에서 히라가나/카타카나 양쪽 패턴으로 대조한다.
+
 ## Project Structure
 
 ```
@@ -132,3 +151,16 @@ landing/
 | 1.0.2+5 | 5 | 스와이프 네비게이션 + 즐겨찾기 오버레이 |
 | 1.0.2+6 | 6 | 텍스트 스케일 고정 + 반응형 그리드 + edge-to-edge |
 | 1.0.3+7 | 7 | 코드 최적화 (batch INSERT, N+1 fix, debounce, provider 정리) |
+| 1.1.0+8 | 8 | targetSdk 36 (Play 2026-08-31 대응) + 음독 후리가나 표기 + 데이터 동기화 수정 |
+| 1.1.1+9 | 9 | 한자 목록 LIMIT 200 제거 (N3·N2·N1 전체 표시) |
+| 1.1.2+10 | 10 | 코드 변경 없음 — versionCode 재발급 (9가 공개 테스트 트랙에 소진되어 비공개 재등록 불가) |
+
+## Android 타겟 정책
+
+- `compileSdk` / `targetSdk`는 `android/app/build.gradle.kts`에 **명시적으로 36 고정**.
+  Flutter SDK 기본값(3.32 기준 35)에 의존하지 않는다.
+- AGP 8.9.1 (compileSdk 36 공식 지원 최소 버전), Gradle 8.12
+- `enableOnBackInvokedCallback="false"` — targetSdk 36부터 예측형 뒤로가기가 기본
+  활성화되나, GoRouter ShellRoute 중첩 내비게이션 실기기 검증 전까지 opt-out 유지
+- 16KB 페이지 크기: 64비트 .so 6종 모두 충족 확인 (libapp/libflutter 64KB,
+  libdatastore_shared_counter 16KB)
